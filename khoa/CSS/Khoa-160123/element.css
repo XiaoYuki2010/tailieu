@@ -1,5 +1,6 @@
 .wrap.wrap-01 li {
-    padding-left: 40px;; 
+    padding-left: 40px;
+    text-align: center;
     color: blue; 
     font-size: 60px; 
     font-style: bold;
@@ -12,20 +13,25 @@
     font-style:normal;
 }
 
-.wrap.wrap-02 ~ ul{ 
-        padding-left: 40px; 
-        color:palevioletred; 
-        font-size: 50px; 
-        font-style: oblique;
+.wrap.wrap-02 ~ ul{
+    padding-left: 40px;
+    color:yellow; 
+    background-color: cornflowerblue;
+    font-size: 50px; 
+    font-style: oblique;
 }
+
 p + ul { 
+    text-align: center;
     padding-left: 40px; 
     color: white;
     background-color: blueviolet;
     font-size: 50px; 
     font-style: oblique;
 }
+
 div + p {
+   text-align:center;
     color:red; 
-    font-size: 30px
+    font-size: 50px
 }
