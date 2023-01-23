@@ -7,6 +7,7 @@
 }
 .wrap.wrap ul li ul li {
     text-align: left;
+    display: block;
     background-color: aqua;  
     font-size: 60px; 
     color: purple; 
