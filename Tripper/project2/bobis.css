@@ -1,18 +1,12 @@
-.menu{
+div.menu{
     padding-left: 0;
     text-align: right;
-}
-.menu > p.mods {
-    font-size: 24px;
-    color: rgb(2, 247, 19);
-    text-align: center;
 }
 .warm > li {
     font-size: 20px;
     color: rgb(221, 64, 28);
-    padding: 15px 15px;
+    padding: 10px 10px;
     list-style: none;
-    text-decoration: none;
     text-align: right;
     display: inline-block;
 }
@@ -23,15 +17,16 @@
     display: none;
     color: wheat;
     list-style-type: lower-roman;
+    background-color: rgb(144, 144, 227);
 }
 .warm > li > a:hover {
     border-bottom: 2px dashed red;
-    background-color: blueviolet;
+    background-color: none;
     display: inline-block;
     position: relative;
-    padding: 4px 4px;
+    padding: 5px 5px;
 }
-.warm > li.a > ol > li {
+.warm > li > a > ol {
     border: 2px dashed blue;
     position: absolute;
     top: 0;
@@ -47,11 +42,12 @@ ul.warm li ol li > a {
     color: yellowgreen;
     font-size: 18px;
     font-weight: 100;
-    font-style: oblique ;
+    font-style: oblique;
+    position: sticky;
 }
-.menu {
+div.menu {
     background-color: aliceblue;
-    border:3px solid rebeccapurple;
+    border-bottom: 1px dashed aliceblue;
     width: 100%;
     position: fixed;
     bottom: top;
