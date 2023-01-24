@@ -1,0 +1,237 @@
+body{
+    margin:0;
+    padding: 0;
+	
+}
+/* menu */
+.primarynav{
+	display: block !important;
+	max-width: 100%;
+	text-decoration: none !important;
+	height: 70px;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	float: none;
+	position: fixed;
+	border-bottom: 2px solid black;
+	
+}
+.navbar{
+	float: left;
+}
+.full-width{
+	width: 1310px;	
+}
+.fix-width{
+	width: 1200px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: relative;
+}
+.logo{
+	height: 70px;
+	width: 70px;
+	/* justify-content: center;
+	display: flex; */
+}
+.logo img{
+	height: 70px;
+	text-align: center;
+
+}
+.menu{
+	width:1200px;
+	height: 70px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+.menu ul li{
+	height:70px;
+    width:200px;
+    line-height: 70px;
+    overflow: hidden;
+    text-decoration: none;
+	text-align: center;
+	padding-left: 0;
+    font-size: 16px;
+	font-weight: 900;
+}
+.menu ul li:hover{
+	background-color: red;
+    cursor:pointer;
+	color: white;
+}
+.menu ul li a{
+	text-decoration: none;
+    color: palevioletred;
+    text-align:left;
+    overflow: hidden;
+    display: block;
+}
+.menu ul li a:hover{
+	text-decoration: none;
+    background-color: red;
+    cursor: pointer;
+	color: white;
+}
+.fas{
+	font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+.menu ul li a i{
+	position: relative;
+    top: 2px;
+}
+.sub-menu a i{
+	position: relative;
+    top: 2px;
+	right: 10px;
+}
+.menu-primarynav{
+	position:absolute;
+	text-align: center;
+	margin:0;
+	padding:0;
+	height: 70px;
+	
+}
+.menu-primarynav li{
+	list-style-type: none;
+    text-align: right;
+	display:inline-block ;
+	padding-left: 0;
+}
+.menu .menu-primarynav li{
+	list-style:none;
+	width: 150px;
+	padding-left: 5px;
+}
+.menu ul li:hover .sub-menu{/* yeu cau xuat hien the duoi*/
+    /* display: block; */
+    background-color: white;
+	cursor: pointer;
+    position: absolute;
+	width:350px;
+	border-top: 5px solid orange;
+	border-left: 2px solid orange;
+	border-bottom: 2px solid orange;
+	border-right: 2px solid orange;
+	border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.sub-menu{
+	margin: 0;
+	padding: 0;
+}
+.sub-menu a{
+	padding-left: 15px;
+}
+.menu ul .email{
+	width: 70px;
+	background-color: rgb(114, 2, 2);
+}
+.fa-envelope-o{
+	color: white;	
+	font-size: 25px;
+	width: 50px;
+	
+}
+.menu ul .search{
+	width: 70px;
+	background-color: rgb(114, 2, 2);
+	border-radius:50%;
+}
+.fa-search{
+	color: white;
+	font-size: 25px;
+	width: 20px;
+}
+
+/* border khung điền sinh viên */
+.container{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand", "sans-serif";
+    font-weight: normal;
+	width: 1300px;
+	margin-top: 70px;
+	height: auto;
+	padding:0;
+    border-style: groove;
+    border-color:rgba(218, 216, 216, 0.925);
+	float: left;
+	background-color: rgb(8, 252, 252);
+}
+.row{
+    text-align: center;
+    font-size: 50px;
+}
+#gender{
+width: 20px;
+}
+input{
+	width: 800px;	
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	font-family: 'Sniglet', 'cursive';
+	font-size: 1em;
+	color: #676767;
+	transition: border 0.5s;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	border: solid 3px #98d4f3;	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	text-align: left;
+	
+}
+input[type="submit"]{
+	background-color: #F90;
+	color: white;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 1.29em;
+	font-family: 'Sniglet', 'cursive';
+	text-align: center;
+}
+small{
+    color: red;
+	text-align: center;
+}
+.formgroup , label{
+	text-align: left;
+}
+
+ul li{
+	list-style: none;
+}
+div > ul{
+	font-size: 20px;
+	color:black;
+}
+.y,p ,h2{
+	font-size: 30px;
+	color:red;
+	font-style:italic;
+}
+ul + p{
+	color: rgb(236, 252, 17);
+}
+h2 ~ ul{
+	background-color: aliceblue;
+	width: auto;
+	height: auto;
+	max-width: fit-content	;
+}

@@ -1,0 +1,72 @@
+#tieude{
+    padding-left:0px;
+    text-align: left;
+    color: silver;
+    font-size: 20px;
+}
+p {
+    
+    text-align: center;
+}
+H1{
+    padding-top: 150px ;
+    margin: 0px 100px;
+    text-align: center;
+    color: red;
+}
+body{
+    
+    background-color: skyblue;
+    margin-top: 0px;
+}
+ul {
+    padding-left: 0;
+    text-align: center;
+}
+ul.nav li {
+    list-style:;
+    display:inline-block;
+    padding: 15px 30px;
+    position: relative;
+}
+div.menu{
+        position: fixed;
+        width: 100%;
+        bottom: top;
+        left:0px;
+        background-color:whitesmoke; 
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+ul li a{
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color:brown;
+}
+ul li a:hover {
+    color: white;
+    background-color: brown;
+   
+    font-size: 18px;
+    border: 1px solid;
+    display: fixed;
+}
+ul li > .menucon{
+    display: none;
+}
+ul li:hover .menucon{
+    display:block;
+    background-color: white;
+    position: absolute;
+    text-align: left;
+    width: 200px;
+}
+.logo{
+    padding:left;
+    float:left;
+}
+
