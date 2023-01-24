@@ -23,16 +23,17 @@ body{
 	width: 1300px;	
 }
 .fix-width{
-	width: 1100px;
+	width: 1200px;
 	display: flex;
     align-items: center;
     justify-content: space-between;
-	padding-left: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
 	position: relative;
 }
 .logo{
 	height: 70px;
-	width: 100px;
+	width: 70px;
 	/* justify-content: center;
 	display: flex; */
 }
@@ -42,7 +43,7 @@ body{
 
 }
 .menu{
-	width:1100px;
+	width:1200px;
 	height: 70px;
 	list-style-type: none;
 	margin: 0;
@@ -129,14 +130,37 @@ body{
 }
 .menu ul li:hover .sub-menu{/* yeu cau xuat hien the duoi*/
     display: block;
-    background-color: whitesmoke;
+    background-color: white;
 	cursor: pointer;
     position: absolute;
 	width:500px;
+	border-top: 5px solid orange;
+	border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
-
-
+.menu ul .email{
+	width: 70px;
+	background-color: rgb(114, 2, 2);
+}
+.fa-envelope-o{
+	color: white;	
+	font-size: 25px;
+	width: 50px;
+	
+}
+.menu ul .search{
+	width: 70px;
+	background-color: rgb(114, 2, 2);
+	border-radius:50%;
+}
+.fa-search{
+	color: white;
+	font-size: 25px;
+	width: 20px;
+}
 /* border khung điền sinh viên */
 .container{
     font-size: 20px;
