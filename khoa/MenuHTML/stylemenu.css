@@ -14,6 +14,7 @@ ul li {
 ul li a{
     font-size: 15px;
     color: blue;
+    border: none;
     
 }
 ul a:hover{
@@ -30,12 +31,12 @@ div.menu{
 
 }
 .menu2{
-    display: none;
+    display: block;
     position: absolute;
-    top: 100%;
-    width: 20px;
-    padding: 0pxx
-    color: rgb(12, 139, 0);
+    top: 30%;
+    width: 200px;
+    padding: 80px;
+    color:rgb(15, 224, 32)
     
 }
 
