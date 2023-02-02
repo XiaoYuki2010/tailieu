@@ -1,0 +1,68 @@
+#polis2{
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+}
+.one {
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 5px 5px 10px blue;
+    font-style: italic;
+}
+.two {
+    top: 0;
+    display: flex;
+    width: 100%;
+    padding-left: 8cm;
+}
+.pic1 .pic2 .pic3 {
+    position: absolute;
+    display: block;
+    object-fit: cover;
+    image-rendering: pixelated;
+}
+.pic1{
+    float: left;
+}
+.pic3{
+    float: right;
+    overflow: hidden;
+}
+.pic2{
+    display: flex;
+}
+.text {
+    position: absolute;
+    font-size: 18px;
+    z-index: 1;
+    text-align: center;
+    width: auto;
+    font-weight: 900;
+    border-style: groove solid skyblue;
+    margin: 0;
+    padding: 0;
+}
+.text:hover {
+    background-color: rgb(234, 182, 182);
+}
+.pa, .pf {
+    margin-left: 2.5cm;
+    margin-top: -5cm;
+}
+.pb, .pd {
+    margin-left: 1.5cm;
+    margin-top: -2.5cm;
+}
+.pc, .pe {
+    margin-left: 1.5cm;
+    margin-top: -2.5cm;
+}
+.pa, .pb, .pc, .pd, .pe, .pf {
+    white-space: nowrap; 
+    width: 100px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: whitesmoke;
+    text-shadow: 5px 5px 10px red;
+}

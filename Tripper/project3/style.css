@@ -1,0 +1,68 @@
+
+div.Mirco {
+    font-size: 18px;
+    color: blanchedalmond;
+    font-style: italic;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+}
+.selection {
+    z-index: 4;
+    top: 0;
+}
+div.menu1{
+    float: left;
+}
+div.menu2{
+   float: right;
+   list-style: none;
+}
+.menu2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.menu2 ul > li {
+    padding: 10px 10px;
+    display: inline-block;
+}
+.menu2 li > a:hover {
+    background-color: rgb(79, 77, 77);
+}
+ .menucon {
+    display: none;
+    position: absolute;
+    min-width: 80px;
+}
+.menucon > a {
+    color: rgb(142, 23, 207);
+    padding: 10px 14px;
+    display: block;
+    text-align: left;
+}
+.menu2 li:hover .menucon {
+    display: block;
+}
+.menucon > a:hover {
+    background-color: red;
+}
+.menucon a {
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    background-color: antiquewhite;
+}
+#polis {
+    background-image: url(../project3/picture/chacracter/lệnh\ truy\ nã\ zoro.jpg);
+    background-color: #cccccc;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    image-rendering:optimizeQuality;
+}

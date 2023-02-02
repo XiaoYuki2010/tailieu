@@ -1,0 +1,25 @@
+#layout1 {
+    background-image: url(../game/picture/landmark\ 81.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 100%;
+}
+.logo {
+    float: left;
+}
+.menu {
+    float: right;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+.menu a:hover {
+    background-color: aqua;
+}

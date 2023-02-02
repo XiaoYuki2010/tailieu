@@ -1,0 +1,14 @@
+#qcc {
+    width: 100%;
+    display: inline-block;
+    border: 2px solid red;
+    background-color: skyblue;
+    background-size: 100px 100px;
+    
+}
+.qc1 {
+    float: left;
+}
+.qc2 {
+    float: right;
+}
