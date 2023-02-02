@@ -1,0 +1,176 @@
+h1{
+    color: rgba(57, 60, 66, 0.952);
+    text-align: center;
+}
+.backgroundtop{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -3;
+}
+.logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    display:block;
+    position: absolute;
+    z-index: 2;
+}
+ul{
+    text-align: right;
+    padding-left: 0;
+}
+ul.nav li{
+    list-style-image: none;
+    display:inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+div.primarymenu{
+    position: fixed;
+    width: 100%;
+    bottom: top ;
+    left:0px;
+    padding: right;
+    background-color:rgb(9, 209, 209);
+    z-index: 4;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+}
+ul li a{
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color:white;
+}
+ul li > .submenu{
+    display: none;
+}
+ul li:hover .submenu{
+    display:block;
+    position: absolute;
+    text-align: left;
+    font-size: 16px;
+    color: darkcyan !important;
+    width: 200px;
+    text-decoration:none;
+    background-color: silver;
+}
+.piclist{
+    z-index: 1;
+    display: inline-flex;
+    position: relative;
+    color: whitesmoke;
+    margin-left: 260px;
+    
+}
+.picproduct ul > li img{
+    opacity: 0.6;
+    transition: all 0.8s;
+    overflow: hidden;
+}
+.picproduct ul > li img:hover{
+    opacity: 1.0;
+    overflow: hidden;
+}
+.picproduct{
+    display: inline-flex;
+    margin-right: 200px;
+    margin-bottom: 0px;
+}
+H3{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 20px;
+}
+.h4{
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.insee > .piclist3{
+    display: inline-flex;
+}
+h2{
+    text-align: center;
+    color: darkcyan;
+    font-size: 50px;
+}
+p{
+    text-align: left;
+    font-size: 18px;
+}
+.baochi{
+    float: left;
+    margin-left: 250px ;
+}
+h5{
+    display: inline-flex;
+    font-size: 40px;
+    color: darkcyan;
+    float: right;
+    margin-top: -10px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 2;
+}
+.textbot p{
+    display: inline-flex;
+    font-size: 20px;
+    float: right;
+    margin-left: 530px;
+    margin-top: -400px;
+    position: absolute;
+}
+.tuhao{
+    text-align: center;
+    color: cadetblue;
+    display: block;
+    float: left;
+    margin-left: 80px;
+}
+div.vieclam{
+    float: right;
+    margin-right: 250px;
+    
+}
+div.vieclam p{
+    display: inline-flex;
+    float: left;
+    font-size: 18px;
+    color: black;
+    margin-top: 50px;
+    margin-left:-200px;
+ 
+}
+.vieclam h5{
+    display: inline-flex;
+    float: left;
+    color: darkcyan;
+    margin-left: -200px; 
+}
+div.vieclam img{
+    padding-left: 100px;
+}
+div.vieclam .ungtuyen{
+    display: none;
+}
+div.vieclam .ungtuyen{
+    font-size: 30px ;
+    color: darkcyan;
+    margin-top: 60px;
+    position: absolute;
+    display:block;
+    margin-left: -200px;
+}
+

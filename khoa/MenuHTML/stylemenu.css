@@ -15,7 +15,6 @@ H1{
     color: red;
 }
 body{
-    
     background-color: skyblue;
     margin-top: 0px;
 }
@@ -24,17 +23,17 @@ ul {
     text-align: center;
 }
 ul.nav li {
-    list-style:;
+    list-style:none;
     display:inline-block;
     padding: 15px 30px;
     position: relative;
 }
 div.menu{
-        position: fixed;
-        width: 100%;
-        bottom: top;
-        left:0px;
-        background-color:whitesmoke; 
+    position: fixed;
+    width: 100%;
+    bottom: top;
+    left:0px;
+    background-color:whitesmoke; 
 }
 ul li{
     list-style: none;
@@ -48,12 +47,10 @@ ul li a{
     color:brown;
 }
 ul li a:hover {
-    color: white;
-    background-color: brown;
-   
+    color:red;
+    background-color: white;
     font-size: 18px;
-    border: 1px solid;
-    display: fixed;
+    display:contents;
 }
 ul li > .menucon{
     display: none;
