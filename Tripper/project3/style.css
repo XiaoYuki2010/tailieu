@@ -48,7 +48,9 @@ div.menu2{
     display: inline-block; 
 }
 .menu2 li > a {
-    padding: 10px 10px;display: block;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
 }
 .menu2 li > a:hover {
     background: rgb(235, 143, 143);
