@@ -1,6 +1,8 @@
-#polis {
+
+body, html {
     height: 100%;
     margin: 0;
+    padding: 0;
 }
 #polis {
     background: url(../project3/picture/background/sunny\ boat.jpg);
@@ -9,7 +11,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
-    height: 1080px;
+    height: 100%;
 }
 div.Mirco {
     font-size: 18px;
