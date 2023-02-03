@@ -22,15 +22,12 @@ div{
 }
 .header{
     height: 100px;
-    width: 100%;
+    min-width: 100%;
     position: fixed;
     z-index: 29;
 }
 .header-wrap{
     position: relative;
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 .header .container-m{
     position: relative;
@@ -83,9 +80,6 @@ header.affix .logo-2 {
     right: 0;
     width: 100%;
 }
-.header .container-m{
-    position: relative;
-}
 .top-action{
     display: none;
 }
@@ -118,7 +112,6 @@ header.affix .logo-2 {
 .top-bar{
     letter-spacing: 0;
     font-size: 12px;
-    width: 100%;
     height: 20px;
 }
 .top-bar-section{
@@ -175,7 +168,6 @@ header.affix .logo-2 {
     padding-right: 0;
     box-sizing: border-box;
     width: 100%;
-    max-width: 1700px;
 }
 .nav ul li:hover{
     cursor:pointer;
@@ -220,7 +212,7 @@ header.affix .logo-2 {
     background-color:grey;
 	cursor: pointer;
     position: absolute;
-	width:350px;
+	width: 350px;;
 	border-top: 5px solid orange;
 	border-left: 2px solid orange;
 	border-bottom: 2px solid orange;
@@ -236,7 +228,6 @@ header.affix .logo-2 {
 /* section banner */
 .section-banner{
     position: relative;
-    padding: 0;
 }
 
 .wrap-section-banner-full{
@@ -244,6 +235,7 @@ header.affix .logo-2 {
 }
 .wrap-section-banner-container{
     min-height: 100vh;
+    width: auto;
     
 }
 .slotholder{
@@ -265,9 +257,7 @@ header.affix .logo-2 {
 }
 /* page section */
 .page-section{
-    display: flex;
     position: relative;
-    overflow: hidden;
     padding-top:20px;
 }
 .page-section-container{
@@ -276,6 +266,7 @@ header.affix .logo-2 {
     margin-right: auto;
     margin-left: auto;
     width: 1170px;
+    min-height: 250vh;
 }
 .page-section-container-title{
     padding-bottom: 20px;
@@ -286,7 +277,6 @@ header.affix .logo-2 {
     font-size: 23px;
     line-height: 25px;
     color: #4b4e53;
-    position: relative;
     font-weight: 400;
     position: relative;
 }
@@ -295,39 +285,110 @@ header.affix .logo-2 {
 }
 .col{
     zoom: 1;
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
 }
-.tab1{
-    width: 33,3333%;
+.row1{
+    width: 30%;
     float: left;
-    
+    height: 100%;
+    padding:10px 5px 0px 10px;
+    position: relative;
 }
-.tab2{
-    width: 66,6666%;
-    float: left;
-}
-.row{
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 1px;
+.tab1 , .tab2-row-top , .tab2-row-bottom , .tab3-row-top , .tab3-row-bottom{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     position: relative;
     object-fit:contain;
 }
-.tab1 a{
-    background-image:url(../insee/img/csht.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit:contain;
-    overflow: hidden;
-    text-decoration: none;
-    outline: 0;
-    
-}
-img{
-    max-width: 100%;
-    height: auto;
-}
-h4{
+.text-tab1{
+    position: absolute;
     text-align: center;
+}
+.tab1 h4{
+    overflow: hidden;
+    font-size: 20px;
     font-weight: 600;
-    white-space: normal;
+}
+.text-tab1 a{
+    text-decoration: none;
+    color: white;
+}
+.tab1 img{
+    width: 100%;  
+}
+.row2{
+    width: 64%;
+    float: left;
+    position: relative;
+}
+.tab2 .tab3{
+    flex-wrap: wrap;
+    display: flex;
+}
+.text-tab1{
+    position: absolute;
+    text-align: center;
+}
+.tab1 h4{
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tab2 h4{
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tab3 h4{
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 600;
+}
+.text-tab1 a{
+    text-decoration: none;
+    color: white;
+}
+.tab1 img{
+    width: 100%; 
+    height: 485px;   
+}
+.tab2{
+    float: left;
+    padding:10px 10px 5px 5px;
+    position: relative;
+}
+.tab3{
+    float: left;
+    padding:5px 10px 10px 5px;
+    position: relative;
+}
+.tab2-row-top , .tab2-row-bottom ,.tab3-row-top , .tab3-row-bottom{
+    display: flex;
+    width: 49%;
+    float: left;
+}
+.tab2-row-top , .tab2-row-bottom , .tab3-row-top ,.tab3-row-bottom{
+    width: 49%;
+    max-height: 49%;
+}
+.tab2-row-top , .tab3-row-top {
+    padding-right: 10px;
+}
+.tab2-row-top img{
+    width: 100%;    
+}
+.tab2-row-bottom img{
+    width: 100%;    
+}
+.tab3-row-top img{
+    width: 100%;    
+}
+.tab3-row-bottom img{
+    width: 100%;    
 }
