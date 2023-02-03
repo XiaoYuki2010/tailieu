@@ -1,7 +1,6 @@
 #polis2{
     box-sizing: border-box;
     width: 100%;
-    
 }
 .one {
     text-align: center;
@@ -13,8 +12,8 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    justify-content: center;
+    width: fit-content;
+    flex-direction: row;
 }
 .pic1 .pic2 .pic3 {
     position: absolute;
@@ -25,20 +24,28 @@
 }
 .pic1{
     float: left;
+    padding: 10px;
 }
 .pic3{
     float: right;
+    padding: 10px;
 }
 .pic2{
     display: flex;
+    margin: 2px;
+}
+.pic2pl1, .pic2pl2 {
+    padding: 10px;
 }
 .aa, .af {
     width: 265px;
     height: 320px;
+    object-fit: cover;
 }
 .ab, .ac, .ad, .ae {
     width: 190px;
-    height: 160px;
+    height: 157px;
+    object-fit: cover;
 }
 .text {
     position: absolute;
