@@ -1,6 +1,8 @@
-#polis {
+
+body, html {
     height: 100%;
     margin: 0;
+    padding: 0;
 }
 #polis {
     background: url(../project3/picture/background/sunny\ boat.jpg);
@@ -9,18 +11,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size:auto;
-    height: 1080px;
+    height: 100%;
 }
 div.Mirco {
     font-size: 18px;
     color: blanchedalmond;
     font-style: italic;
-    position: absolute;
     top: 10px;
     width: 100%;
     position: sticky;
     position: -webkit-sticky;
-    overflow: hidden;
+    overflow: initial;
 }
 .selection {
     z-index: 4;
@@ -28,6 +29,10 @@ div.Mirco {
 }
 div.menu1{
     float: left;
+}
+.imgmenu1 {
+    width: 90px;
+    height: 90px;
 }
 div.menu2{
    float: right;
@@ -49,7 +54,6 @@ div.menu2{
  .menucon {
     display: none;
     position: absolute;
-    min-width: 80px;
 }
 .menucon > a {
     color: rgb(142, 23, 207);
