@@ -1,4 +1,16 @@
-
+#polis {
+    height: 100%;
+    margin: 0;
+}
+#polis {
+    background: url(../project3/picture/background/sunny\ boat.jpg);
+    width: 100%;
+    position: relative; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    height: 100%;
+}
 div.Mirco {
     font-size: 18px;
     color: blanchedalmond;
@@ -8,6 +20,7 @@ div.Mirco {
     width: 100%;
     position: sticky;
     position: -webkit-sticky;
+    overflow: hidden;
 }
 .selection {
     z-index: 4;
@@ -56,13 +69,4 @@ div.menu2{
     font-size: 16px;
     background-color: antiquewhite;
 }
-#polis {
-    background-image: url(../project3/picture/chacracter/lệnh\ truy\ nã\ zoro.jpg);
-    background-color: #cccccc;
-    height: 1000px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    image-rendering:optimizeQuality;
-}
+
