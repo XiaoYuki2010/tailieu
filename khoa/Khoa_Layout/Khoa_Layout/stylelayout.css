@@ -1,0 +1,223 @@
+h1{
+    color: rgba(57, 60, 66, 0.952);
+    text-align: center;
+    text-shadow: 1px 0px 15px;
+}
+.backgroundtop{
+    z-index: -3;
+    object-fit: cover;
+}
+.backgroundtop img{
+    display: block;
+    box-sizing:content-box;
+    max-height: 100vh;
+    width: calc(100% + 22vh);
+    object-position: 100% 100%;
+}
+.logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    display:block;
+    position: absolute;
+    z-index: 2;
+}
+ul{
+    text-align: right;
+    padding-left: 0;
+}
+ul.nav li{
+    list-style-image: none;
+    display:inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+div.primarymenu{
+    position: fixed;
+    width: 100%;
+    bottom: top ;
+    left:0px;
+    padding: right;
+    background-color:rgb(9, 209, 209);
+    z-index: 4;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+}
+ul li a{
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color:white;
+}
+ul li > .submenu{
+    display: none;
+}
+ul li:hover .submenu{
+    display:block;
+    position: absolute;
+    text-align: left;
+    font-size: 16px;
+    color: darkcyan !important;
+    width: 200px;
+    text-decoration:none;
+    background-color: silver;
+}
+/**Sản Phẩm**/
+
+.picproduct ul > li img{
+    opacity: 0.6;
+    transition: all 0.8s;
+    overflow: hidden;
+    border-radius: 10%;
+    display: block;
+}
+.picproduct ul > li img:hover{
+    opacity: 1.0;
+    overflow: hidden;
+}
+.picproduct{
+    display: inline-flex;
+    margin-bottom: 0px;
+    align-items:center ;
+}
+.picproduct img{
+    object-position: center;
+    }
+.piclist ul{
+    z-index: 1;
+    display: inline-flex;
+    position: relative;
+    color: whitesmoke;
+}
+.piclist img{
+    width: 472px;
+    height: 672px;
+    object-fit: cover;
+}
+.piclist2 img{
+    width: 400px;
+    height: 265px;
+    object-fit: cover;
+    align-items: center;
+}
+H3{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 20px;
+    overflow:auto;
+}
+.h4{
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 130px;
+    overflow: auto;
+}
+/**Về Insee**/
+.insee > .piclist3{
+    display: inline-flex;
+    width: 900px;
+    height: 622px;
+    object-fit: cover;
+    padding-bottom: 150px;
+}
+h2{
+    text-align: center;
+    color: darkcyan;
+    font-size: 50px;
+    text-shadow: 1px 0px 15px ;
+}
+p{
+    text-align: left;
+    font-size: 18px;
+    overflow: auto;
+}/**Báo Chí**/
+.baochi img{
+    width: 500px;
+    height: 440px;
+    object-fit: cover;
+}
+.baochi{
+    float: left;
+    margin-left: 250px ;
+}
+h5{
+    display: inline-flex;
+    font-size: 40px;
+    color: darkcyan;
+    float: right;
+    margin-top: -10px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 2;
+}
+.textbot p{
+    display: inline-flex;
+    font-size: 20px;
+    float: right;
+    margin-left: 530px;
+    margin-top: -400px;
+    position: absolute;
+    overflow: auto;
+}
+/** Tự Hào**/
+.tuhao{
+    text-align: center;
+    color: cadetblue;
+    display: block;
+    float: left;
+    margin-left: 80px;
+    padding-top: 150px;
+}
+.tuhao img{
+    width: 500px;
+    height: 333px;
+    object-fit: cover;
+}
+/** Việc Làm**/
+div.vieclam{
+    float: right;
+    margin-right: 250px;
+    
+}
+div.vieclam p{
+    display: inline-flex;
+    float: left;
+    font-size: 18px;
+    color: black;
+    margin-top: 50px;
+    margin-left:-200px;
+    overflow: auto;
+}
+.vieclam h5{
+    display: inline-flex;
+    float: left;
+    color: darkcyan;
+    margin-left: -200px; 
+}
+div.vieclam img{
+    padding-left: 100px;
+    width: 600px;
+    height: 333px;
+    object-fit: cover;
+}
+div.vieclam .ungtuyen{
+    display: none;
+}
+div.vieclam .ungtuyen{
+    font-size: 30px ;
+    color: darkcyan;
+    margin-top: 60px;
+    position: absolute;
+    display:block;
+    margin-left: -200px;
+}
+
