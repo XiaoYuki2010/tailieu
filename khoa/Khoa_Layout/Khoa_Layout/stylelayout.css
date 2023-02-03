@@ -1,12 +1,18 @@
 h1{
     color: rgba(57, 60, 66, 0.952);
     text-align: center;
+    text-shadow: 1px 0px 15px;
 }
 .backgroundtop{
-    width: 100%;
-    height: 100%;
-    position: relative;
     z-index: -3;
+    object-fit: cover;
+}
+.backgroundtop img{
+    display: block;
+    box-sizing:content-box;
+    max-height: 100vh;
+    width: calc(100% + 22vh);
+    object-position: 100% 100%;
 }
 .logo{
     float: left;
@@ -59,18 +65,14 @@ ul li:hover .submenu{
     text-decoration:none;
     background-color: silver;
 }
-.piclist{
-    z-index: 1;
-    display: inline-flex;
-    position: relative;
-    color: whitesmoke;
-    margin-left: 260px;
-    
-}
+/**Sản Phẩm**/
+
 .picproduct ul > li img{
     opacity: 0.6;
     transition: all 0.8s;
     overflow: hidden;
+    border-radius: 10%;
+    display: block;
 }
 .picproduct ul > li img:hover{
     opacity: 1.0;
@@ -78,8 +80,28 @@ ul li:hover .submenu{
 }
 .picproduct{
     display: inline-flex;
-    margin-right: 200px;
     margin-bottom: 0px;
+    align-items:center ;
+}
+.picproduct img{
+    object-position: center;
+    }
+.piclist ul{
+    z-index: 1;
+    display: inline-flex;
+    position: relative;
+    color: whitesmoke;
+}
+.piclist img{
+    width: 472px;
+    height: 672px;
+    object-fit: cover;
+}
+.piclist2 img{
+    width: 400px;
+    height: 265px;
+    object-fit: cover;
+    align-items: center;
 }
 H3{
     font-size: 30px;
@@ -88,6 +110,7 @@ H3{
     position: absolute;
     margin-top: 250px;
     margin-left: 20px;
+    overflow:auto;
 }
 .h4{
     text-align: center;
@@ -96,19 +119,31 @@ H3{
     position: absolute;
     margin-top: 100px;
     margin-left: 130px;
+    overflow: auto;
 }
-
+/**Về Insee**/
 .insee > .piclist3{
     display: inline-flex;
+    width: 900px;
+    height: 622px;
+    object-fit: cover;
+    padding-bottom: 150px;
 }
 h2{
     text-align: center;
     color: darkcyan;
     font-size: 50px;
+    text-shadow: 1px 0px 15px ;
 }
 p{
     text-align: left;
     font-size: 18px;
+    overflow: auto;
+}/**Báo Chí**/
+.baochi img{
+    width: 500px;
+    height: 440px;
+    object-fit: cover;
 }
 .baochi{
     float: left;
@@ -131,14 +166,23 @@ h5{
     margin-left: 530px;
     margin-top: -400px;
     position: absolute;
+    overflow: auto;
 }
+/** Tự Hào**/
 .tuhao{
     text-align: center;
     color: cadetblue;
     display: block;
     float: left;
     margin-left: 80px;
+    padding-top: 150px;
 }
+.tuhao img{
+    width: 500px;
+    height: 333px;
+    object-fit: cover;
+}
+/** Việc Làm**/
 div.vieclam{
     float: right;
     margin-right: 250px;
@@ -151,7 +195,7 @@ div.vieclam p{
     color: black;
     margin-top: 50px;
     margin-left:-200px;
- 
+    overflow: auto;
 }
 .vieclam h5{
     display: inline-flex;
@@ -161,6 +205,9 @@ div.vieclam p{
 }
 div.vieclam img{
     padding-left: 100px;
+    width: 600px;
+    height: 333px;
+    object-fit: cover;
 }
 div.vieclam .ungtuyen{
     display: none;
