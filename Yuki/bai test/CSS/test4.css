@@ -1,0 +1,25 @@
+body{
+	margin: 0 auto; padding: 0;
+}
+main{
+	min-height: 70vh;
+	padding: 0;
+}
+main > section.posts{
+	box-sizing: border-box;
+	margin: 0; padding: 0;
+	display: flex;
+	flex-flow: row wrap;
+}
+main > section.posts > article{
+  outline: 1px solid red;
+	width: 22vw;
+	min-height: 100vh;
+	margin: 0; padding: 0;
+	flex-grow: 1;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+main > section.posts > article > img{  /* Our suspect */
+  object-fit: cover;
+}
