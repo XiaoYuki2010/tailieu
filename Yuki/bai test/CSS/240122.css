@@ -3,6 +3,21 @@ body{
     padding: 0;
 	
 }
+/* background */
+.background{
+    background-color: #00bbee;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 7%;
+    margin-bottom: 15%;
+    border: 2px solid red;
+	position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+	background-size: inherit;
+	width: 1000px;
+	height: 200px;
+  }
 /* menu */
 .primarynav{
 	display: block !important;

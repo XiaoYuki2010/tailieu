@@ -253,13 +253,14 @@ header.affix .logo-2 {
     height: auto;
     margin-top: 0px;
     margin-bottom: 0px;
+    
 
 }
 .wrap-section-banner-container{
     max-height: none;
     overflow: visible;
     height: 1080px;
-    width: 100%;
+    width: 1349px;
 }
 .slotholder{
     position: absolute;
@@ -270,12 +271,16 @@ header.affix .logo-2 {
     height: 100%;
     visibility: inherit;
     opacity: 1;
+    
 }
 .banner-img{
     background-repeat: no-repeat;
+    position: relative;
     background-image: url(../insee/img/Banner_1920x1080.jpg);
-    background-size: cover;
+    background-size: auto;
     background-position: center;
+    overflow: hidden;
+    white-space: nowrap;
     width: 100%;
     height: 100%;
     opacity: 1;
@@ -284,8 +289,6 @@ header.affix .logo-2 {
 }
 /* page section */
 .page-section{
-    width: 100%;
-    height: 100%;
     display: flex;
     position: relative;
     overflow: hidden;
