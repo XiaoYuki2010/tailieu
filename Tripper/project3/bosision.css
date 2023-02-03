@@ -32,6 +32,14 @@
 .pic2{
     display: flex;
 }
+.aa, .af {
+    width: 265px;
+    height: 320px;
+}
+.ab, .ac, .ad, .ae {
+    width: 190px;
+    height: 160px;
+}
 .text {
     position: absolute;
     font-size: 18px;
