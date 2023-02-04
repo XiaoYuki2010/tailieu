@@ -24,18 +24,18 @@
 }
 .pic1{
     float: left;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
 }
 .pic3{
     float: right;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
 }
 .pic2{
     display: flex;
     margin: 2px;
 }
 .pic2pl1, .pic2pl2 {
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
 }
 .aa, .af {
     width: 265px;
@@ -50,16 +50,11 @@
 .text {
     position: absolute;
     font-size: 18px;
-    z-index: 1;
-    text-align: center;
-    width: auto;
-    font-weight: 900;
-    border-style: groove solid skyblue;
     margin: 0;
     padding: 0;
 }
 .text:hover {
-    background-color: rgb(234, 182, 182);
+    background-color: rgb(235, 163, 163);
 }
 .pa, .pf {
     margin-left: 2.5cm;
@@ -75,9 +70,7 @@
 }
 .pa, .pb, .pc, .pd, .pe, .pf {
     white-space: nowrap; 
-    width: 100px; 
-    overflow: hidden;
-    text-overflow: ellipsis;
+    width: auto; 
     color: whitesmoke;
     text-shadow: 5px 5px 10px red;
 }
