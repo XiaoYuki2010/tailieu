@@ -82,7 +82,6 @@ h4{
     margin-top: 150px;
     margin-left: 160px;
     overflow: auto;
-
 }
 div.polis {
     width: 100%;
@@ -93,10 +92,10 @@ div.polis {
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
-    flex-direction: row;
 }
 .piclist {
     float: left;
+   
 }
 .piclist2 {
     display: flex;
@@ -118,10 +117,11 @@ div.polis {
     overflow: hidden;
 }
 .primary{
-    display: block;
-    position: relative;
+    display: flex;
+    /*position: relative;*/
     text-align: center;
     margin: auto;
+    justify-content: center;
     align-items: center;
 }
 .giaiphap img{
@@ -131,10 +131,11 @@ div.polis {
     padding: 15px 15px 15px 15px;
 }
 div.piclist2{
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    flex-direction: row;
+    display: flex;
+    
+    align-items: center;
+    justify-content:center;
+    object-fit: scale-down;
 }
 div.picbottom {
     float: right;
@@ -144,6 +145,7 @@ div.picbottom {
     width: 400px;
     height: 330px;
     object-fit: cover;
+    overflow: hidden;
     align-items: center;
     padding: 15px 15px 15px 15px;
 }
@@ -151,6 +153,7 @@ div.picbottom {
     width: 400px;
     height: 330px;
     object-fit: cover;
+    overflow: hidden;
     align-items: center;
     padding: 15px 15px 15px 15px;
 }
