@@ -19,7 +19,7 @@ div{
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
-    color: #7e8082;
+    color: rgb(126, 128, 130);
     min-width: 100%;
 
 }
@@ -133,7 +133,7 @@ header.affix .logo-2 {
 }
 .banner-img{
     position: relative;
-    background-image: url(../bt2-11-2023/img/section-banner.jpg);
+    background-image: url(../bt2-11-2023/img/FPdG0M0XsAED6oj.jpg);
     background-size:cover ;
     align-items: center;
     justify-content: center;
@@ -174,4 +174,142 @@ header.affix .logo-2 {
 .button-text a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+/* page section */
+.page-section{
+    position: relative;
+    padding-top:20px;
+    min-width: 100%;
+    object-fit: cover;
+    
+    
+}
+.page-section-container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: auto;
+    padding-right: auto;
+    
+
+}
+.col{
+    zoom: 1;
+    position: relative;
+    max-width: 100%;
+    min-height:70vh ;
+    justify-content: center;
+    display:flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row1{
+    max-width: 29%;
+    background-size: cover;
+    float: left;
+    max-height: 72vh;
+    padding:0px 5px 0px 5px;
+    position: relative;
+
+}
+.tab1 , .tab2-row-top , .tab2-row-bottom , .tab3-row-top , .tab3-row-bottom{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.text-tab1{
+    position: absolute;
+    text-align: center;
+}
+.row2{
+    width: 68%;
+    max-height: 72vh;
+    float: left;
+    position: relative;
+}
+.tab1{
+    display: flex;
+    max-height: 100%;
+    width: 100%;
+}
+.tab2 .tab3 {
+    flex-wrap: wrap;
+
+}
+.tab1 h4{
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tab2 h4{
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tab3 h4{
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 600;
+}
+.text-tab1 a{
+    text-decoration: none;
+    color: white;
+}
+.tab1 img{
+    width: 100%;   
+    min-height:70vh;
+    object-fit: cover;   
+  
+}
+.tab2{
+    float: left;
+    padding:0px 10px 5px 5px;
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.tab3{
+    float: left;
+    padding:5px 10px 0px 5px;
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.tab2-row-top , .tab2-row-bottom ,.tab3-row-top , .tab3-row-bottom{
+    display: flex;
+    float: left;
+}
+.tab2-row-top , .tab2-row-bottom , .tab3-row-top ,.tab3-row-bottom{
+    width: 49%;
+    min-height: 47%;
+}
+.tab2-row-top , .tab3-row-top {
+    padding-right: 5px;
+}
+.tab2-row-bottom , .tab3-row-bottom {
+    padding-left: 5px;
+}
+.tab2-row-top img{
+    width: 100%;   
+    height:35vh;
+    object-fit: cover;     
+}
+.tab2-row-bottom img{
+    width: 100%;   
+    height:35vh;
+    object-fit: cover;   
+}
+.tab3-row-top img{
+    width: 100%;   
+    height:35vh;
+    object-fit: cover;    
+}
+.tab3-row-bottom img{
+    width: 100%;   
+    height:35vh;
+    object-fit: cover;  
 }
