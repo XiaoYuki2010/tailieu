@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Menu*/
+.logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    display:block;
+    position: absolute;
+    z-index: 2;
+}
+ul{
+    text-align: right;
+    padding-left: 0;
+}
+ul.nav li{
+    display:inline-block;
+    padding: 10px 20px;
+    position:static;
+}
+.nav a:hover{
+    background-color: gray;
+    color: white;
+}
+.arrow {
+    border: solid gray;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 3px;
+}
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+div.primarymenu{
+    position: fixed;
+    width: 100%;
+    bottom: top ;
+    left:0px;
+    padding: right;
+    background-color:white;
+    z-index: 4;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+}
+ul li a{
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color: gray;
+}
+ul li > .submenu{
+    display: none;
+}
+ul li:hover .submenu{
+    display:block;
+    position: absolute;
+    text-align: left;
+    font-size: 16px;
+    width: 200px;
+    text-decoration:none;
+    background-color: silver;
+}
+/* background*/
+.backgroundtop{
+    padding-top: 70px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    z-index: -3;
+}
+.centerbanner{
+    font-size: 3vw;
+    text-align: center;
+    color:white;
+    text-shadow: 0 0 10px;
+    z-index: 2;
+    margin-top: -23vw;
+}
+#button1 a{
+    width: 5vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: brown;
+    background-color:none;
+}
+div #button1{
+    position: absolute;
+    margin-left: 47vw;
+    width:10vw;
+    z-index: 1;
+}
+/* Không Gian*/
+.text{
+    text-align: center;
+    font-size: 1vw;
+}
+div.container{
+    width: 100%;
+    box-sizing: border-box;
+}
+div.centerblock{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+div.collum2{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    flex-direction: row;
+}
+div.collum3{
+    float: right;
+    display: block;
+}
+.collum1{
+    float: left;
+}
+.container3{
+    display: flex;
+}
+.collum2 .collum3 {
+    position: absolute;
+    display: block;
+    object-fit: cover;
+}
