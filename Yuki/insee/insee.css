@@ -229,12 +229,9 @@ header.affix .logo-2 {
 
 
 /* section banner */
+/* section banner */
 .section-banner{
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    object-fit: cover;
-    min-width: 100%;
 }
 
 .wrap-section-banner-full{
@@ -242,14 +239,14 @@ header.affix .logo-2 {
 }
 .wrap-section-banner-container{
     min-height: 100vh;
-    width: 100%;
+    width: auto;
     
 }
 .slotholder{
     position: absolute;
     z-index: 0;
     width: 100%;
-    min-height: 100%;;
+    height: 100%;
 
 }
 .banner-img{
@@ -257,12 +254,10 @@ header.affix .logo-2 {
     background-image: url(../insee/img/Banner_1920x1080.jpg);
     background-size:cover ;
     width: 100%;
-    height: 100%;;
+    height: 100%;
 }
 .banner-img > img{
     object-fit: cover;
-    width: 100%;
-    min-height: 100%;
 }
 /* page section */
 .page-section{

@@ -19,7 +19,7 @@ div{
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
-    color: #7e8082;
+    color: rgb(126, 128, 130);
     min-width: 100%;
 
 }
@@ -30,6 +30,7 @@ div{
     position: fixed;
     z-index: 29;
     object-fit: cover;
+    background-color: rgb(255, 255, 255);
 }
 .header-wrap{
     position: relative;
@@ -43,6 +44,11 @@ div{
     margin-left: auto;
     margin-right: auto;
 }
+.header-top{
+    position: relative;
+    min-width: 100%;
+    min-height:10vh ;
+}
 /* --------logo----------- */
 .logo-row{
     position: relative;
@@ -50,6 +56,8 @@ div{
     align-items: center;
     width: 133px;
     z-index: 1;
+    display: flex;
+    float: left;
 }
 .logo-2 {
     display: block;
@@ -65,36 +73,233 @@ header.affix .logo-2 {
     margin-top: -5px;
     /* object-fit: cover; */
 }
+.action-right{
+    position: relative;
+    display:flex;
+    float: left;
+    justify-content: end;
+}
+.action-right ul{
+    padding-left: 0;
+}
+.action-right ul li {
+    display: inline-block;
+    margin: 0 15px 0 0;
+    line-height: 50px;
+    font-size: 20px;
+    list-style:none;
+	width: 150px;
+	padding-left: 5px;
+}
+.action-right ul li a{
+    color: #4b4e53;
+    outline: 0!important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fa-regular{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+.fa-regular:hover{
+    content:"\e90b";
+}
 /* -----II.section-banner----------- */
+/* section banner */
 .section-banner{
     position: relative;
     margin-right: auto;
     margin-left: auto;
     object-fit: cover;
     min-width: 100%;
+    line-height: 15px;
 }
+
 .wrap-section-banner-full{
     position: relative;  
 }
 .wrap-section-banner-container{
     min-height: 100vh;
-    width: 100%;
+    width: auto;
     
 }
 .slotholder{
     position: absolute;
     z-index: 0;
     width: 100%;
-    min-height: 100%;;
-
+    height: 100%;
+  
 }
 .banner-img{
     position: relative;
-    background-image: url(../bt2-11-2023/img/section-banner.jpg);
+    background-image: url(../bt2-11-2023/img/FPdG0M0XsAED6oj.jpg);
     background-size:cover ;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    min-height: 100%;;
+    height: 100%;
+    display: flex;
 }
 .banner-img > img{
     object-fit: cover;
+}
+.text{
+    position:relative;
+    text-align: center;
+    color:  rgb(255, 255, 255);
+}
+.banner-img p{
+    font-size: 40px;
+    font-weight: 600;
+}
+.button-text{
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.button-text p{
+    width: auto;
+    font-size:20px;
+    font-weight: 200;
+    border-style: ridge;
+    border-radius: 5px;
+    padding: 5px 45px 5px 45px;
+    
+}
+.button-text a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/*  section */
+.page-section{
+    position: relative;
+    padding-top:20px;
+    min-width: 100%;
+    height: 72vh;
+    object-fit: cover;
+ 
+}
+.wrap-page-section{
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    
+}
+.page-section-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 40px 20px 40px 20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.col{
+    zoom: 1;
+    position: relative;
+    min-width: 100%;
+    min-height:70vh ;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.row1{
+    max-width: 29%;
+    background-size: cover;
+    float: left;
+    max-height: 72vh;
+    padding:0px 5px 0px 5px;
+    position: relative;
+
+}
+.tab1 , .tab2-row-top , .tab2-row-bottom , .tab3-row-top , .tab3-row-bottom{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.row2{
+    width: 68%;
+    max-height: 72vh;
+    float: left;
+    position: relative;
+}
+.tab1{
+    display: flex;
+    max-height: 100%;
+    width: 100%;
+}
+.tab2 .tab3 {
+    flex-wrap: wrap;
+
+}
+.tab1 img{
+    width: 100%;   
+    min-height:70vh;
+    object-fit: cover;   
+  
+}
+.tab2{
+    padding:0px 10px 5px 5px;
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+    object-fit: cover;
+}
+.tab3{
+    padding:5px 10px 0px 5px;
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.tab2-row-top , .tab2-row-bottom ,.tab3-row-top , .tab3-row-bottom{
+    display: flex;
+    float: left;
+}
+.tab2-row-top , .tab2-row-bottom , .tab3-row-top ,.tab3-row-bottom{
+    width: 49%;
+    min-height: 47%;
+}
+.tab2-row-top , .tab3-row-top {
+    padding-right: 5px;
+}
+.tab2-row-bottom , .tab3-row-bottom {
+    padding-left: 5px;
+}
+.tab2-row-top img{
+    width: 100%;   
+    height:35vh;
+    object-fit: cover;     
+}
+.tab2-row-bottom img{
+    width: 100%;   
+    height:35vh;
+    object-fit: cover;   
+}
+.tab3-row-top img{
+    width: 100%;   
+    height:35vh;
+    object-fit: cover;    
+}
+.tab3-row-bottom img{
+    width: 100%;   
+    height:35vh;
+    object-fit: cover;  
 }
