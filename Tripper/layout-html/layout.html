@@ -5,87 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="button.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>project-next</title>
 </head>
 <body>
-    <header>
-         <nav class="banner">
-            <div class="main-left">
-                
-                <div class="logo">
-                    <img src="../picture/inseelogo.png" alt="inseelogo">
-                </div>
-
-                <div class="search">
-                    <form action="">
-                        <input type="text" placeholder="tìm kiếm sản phẩm....." name="search">
-                        <button type="submit"><i class="material-icons">search</i></button>
-                    </form>
-                </div>
-
+    
+<header>
+    <nav class="banner">
+        <div class="main-up">
+            <div class="logo">
+                <img src="../picture/inseelogo.png" alt="inseelogo">
             </div>
-
-            <div class="main-right">
-
-                <div class="icon">
-                    <div class="ic contact-us">
-                        <button><i class="fa fa-phone"></i></button>
-                        <div>
-                            <p>Contact us</p> 
-                        </div>
-                    </div>
-                    <div class="ic faqs">
-                        <button><i class="fa fa-question-circle"></i></button>
-                        <p>Faqs</p>
-                    </div>
-                    <div class="ic catalogues">
-                        <button><i class="fa fa-book"></i></button>
-                        <p>Catalogues</p>
-                    </div>
-                    <div class="ic opt">
-                        <select name="" id="">
-                            <option value="vi">Vn</option>
-                            <option value="En">En</option>
-                        </select>
+        
+            <div class="icon">
+                <div class="ic contact-us">
+                    <button><i class="fa fa-phone"></i></button>
+                    <div>
+                        <p>Contact us</p> 
                     </div>
                 </div>
-            
-                <div class="menu">
-                    <ul>
-                        <li class="dropdown">
-                            <a href="" class="dropbtn">GẠCH ỐP LÁT 
-                                <i class="fa fa-angle-down" style="font-size: 13px;"></i>
-                            </a>
-                            <div class="dropdown-content">
-                                <a href="">opt1</a>
-                                <a href="">opt2</a>
-                                <a href="">opt3</a>
-                                <a href="">opt4</a>
-                                <a href="">opt5</a>
-                            </div>
-                        </li>
-                        <li><a href="">Ý TƯỞNG</a></li>
-                        <li><a href="">SHOWROM</a></li>
-                        <li><a href="">TIN TỨC</a></li>
-                        <li><a href="">GIỚI THIỆU</a></li>
-                    </ul>
+                <div class="ic faqs">
+                    <button><i class="fa fa-question-circle"></i></button>
+                    <p>Faqs</p>
                 </div>
-            </div>  
-        </nav>
-    </header>
+                <div class="ic catalogues">
+                    <button><i class="fa fa-book"></i></button>
+                    <p>Catalogues</p>
+                </div>
+                <div class="ic opt">
+                    <select name="" id="">
+                        <option value="vi">Vn</option>
+                        <option value="En">En</option>
+                    </select>
+                </div>
+            </div>
+        </div>            
+        <div class="banner-header">
+            <div class="main-down">
+                    <div class="seach-div">
+                        <form class="search">
+                            <input type="text" class="input" placeholder="tìm kiếm sản phẩm....." name="search">
+                            <button type="submit" class="button"><i class="material-icons">search</i></button>
+                        </form>
+                    </div>     
+                    <div class="menu">
+                        <ul>
+                            <li class="dropdown">
+                                <a href="" class="dropbtn">GẠCH ỐP LÁT 
+                                    <i class="fa fa-angle-down" style="font-size: 13px;"></i>
+                                </a>
+                                <div class="dropdown-content">
+                                    <a href="">opt1</a>
+                                    <a href="">opt2</a>
+                                    <a href="">opt3</a>
+                                    <a href="">opt4</a>
+                                    <a href="">opt5</a>
+                                </div>
+                            </li>
+                            <li><a href="">Ý TƯỞNG</a></li>
+                            <li><a href="">SHOWROM</a></li>
+                            <li><a href="">TIN TỨC</a></li>
+                            <li><a href="">GIỚI THIỆU</a></li>
+                        </ul>
+                    </div>
+                </div> 
+                </div> 
+    </div>
+</nav>
+</header>
 
     <div class="body2">
+
+        <div class="slide-right-active">
+            <div class="slide-right">
+                <a href="#" id="icon-button" class="icon-slide-right"><i class="fa fa-twitter"></i></a>
+                <a href="#" id="icon-button" class="icon-slide-right"><i class="fa fa-facebook-f"></i></a>
+                <a href="#" id="icon-button" class="icon-slide-right"><i class="fa fa-envelope"></i></a>
+                <a href="#" id="icon-button" class="icon-slide-right"><i class="fa fa-phone"></i></a>
+                <a href="#" id="icon-button" class="icon-slide-right"><i class="fa fa-youtube-play"></i></a>
+            </div>
+        </div>
+
 
         <div class="background">
             <div class="h1a">
                 <h1>NEW ARRIVAL - MARVEL SHINE</h1>
             </div>
             <br>
-            <div class="showmore">
-                <button type="button" class="showmore opt">xem thêm</button>
+            <div class="button-opt">
+                <button>xem thêm</button>
             </div>
         </div>
 
@@ -95,7 +106,7 @@
             </div>
 
              <div class="cus-boxs">
-                <div>
+                <div class="cus-boxs-pic">
                     <div class="pic2">
                         <img src="../picture/body2pic2.jpg" alt="pic2" class="cus boxs pic2">
                     </div>
@@ -103,7 +114,7 @@
                         <img src="../picture/body2pic3.jpg" alt="pic3" class="cus boxs pic3">
                     </div>
                 </div>
-                <div>
+                <div class="cus-boxs-pic">
                     <div class="pic4">
                         <img src="../picture/body2pic4.jpg" alt="pic4" class="cus boxs pic4">
                     </div>
@@ -114,13 +125,17 @@
             </div>
         </div>
     </div>
-    <br><br>
+    <br><br><br>
     
     <div class="container">
         
-        <div>
+        <div class="container-block-over">
+            
             <div class="container-block1">
                 <h2>Ý TƯỞNG</h2>
+                <div class="arow-slay">
+
+                </div>
 
                 <div class="container-img1">
                 <img src="../picture/container-img1.jpg" alt="" class="cont-img1">
@@ -137,7 +152,7 @@
                     đểm mỹ cho không gian, rất phù hợp với xu hướng trang trí nội thất hiện nay.
                 </p>
                 <div class="container-button">
-                    <button type="button">xem thêm</button>
+                    <a href="#">Xem chi tiết...<i class="fa fa-angle-double-right"></i></a>
                 </div>
             </div>
         </div>
@@ -151,6 +166,9 @@
             <h3>
                 XU HƯỚNG SẢN PHẨM
             </h3>
+        </div>
+        <div class="arow-slay">
+                    
         </div>
 
         <div class="container-slide">
@@ -170,13 +188,16 @@
                     <div>
                         <h5>HERA</h5>
                     </div>
+                
                     <div class="container-silde-item">
                         <div>
                             <p>1 Màu sắc</p>
                         </div>
+                        <span class="container-line"></span>
                         <div>
                             <P>0 Bề mặt</P>
                         </div>
+                        <span class="container-line"></span>
                         <div>
                             <p>1 Kích thước</p>
                         </div>
@@ -199,9 +220,11 @@
                         <div>
                             <p>11 Màu sắc</p>
                         </div>
+                        <span class="container-line"></span>
                         <div>
                             <P>0 Bề mặt</P>
                         </div>
+                        <span class="container-line"></span>
                         <div>
                             <p>6 Kích thước</p>
                         </div>
@@ -224,9 +247,11 @@
                         <div>
                             <p>1 Màu sắc</p>
                         </div>
+                        <span class="container-line"></span>
                         <div>
                             <P>0 Bề mặt</P>
                         </div>
+                        <span class="container-line"></span>
                         <div>
                             <p>2 Kích thước</p>
                         </div>
@@ -249,13 +274,16 @@
                         <div>
                             <p>0 Màu sắc</p>
                         </div>
+                        <span class="container-line"></span>
                         <div>
                             <P>0 Bề mặt</P>
                         </div>
+                        <span class="container-line"></span>
                         <div>
                             <p>1 Kích thước</p>
                         </div>
                     </div>
+            
                 </div>
             </div>
 
@@ -274,9 +302,11 @@
                         <div>
                             <p>3 Màu sắc</p>
                         </div>
+                        <span class="container-line"></span>
                         <div>
                             <P>0 Bề mặt</P>
                         </div>
+                        <span class="container-line"></span>
                         <div>
                             <p>1 Kích thước</p>
                         </div>
@@ -294,10 +324,13 @@
         <div class="information-text">
             <h6>TIN TỨC</h6>
         </div>
+        <div class="arow-slay">
+                    
+        </div>
 <br>
         <div class="infor-container">
             <div class="inf-img-left">
-                <div class="inf-img-inside">
+                <div class="inf-img">
                     <img src="../picture/inf-img1.jpg" alt="">
                 </div>
                 <div class="inf-text-left">
@@ -305,7 +338,7 @@
                     <p class="inf-text-title-inside">Trong Hai Ngày 26 và 27/8/2022, Tại THành Phố Cao Lãnh, Đồng Tháp Đã Diễn Ra Lễ Ra Mắt CLB KTS Trẻ vùng tây nam bộ khóa II
                         và CLB KTS trẻ đồng tháp, với sự than gia của super stone với tư các nhà tài trợ, cùng gần 200 khách mời là các KTS của SUPER STONE...
                     </p>
-                    <button type="button" class="inf-text-btn">Xem chi tiết...<i class="fa fa-angle-double-right"></i></button>
+                    <a href="#">Xem chi tiết...<i class="fa fa-angle-double-right"></i></a> 
                 </div>
             </div>
 
@@ -320,7 +353,7 @@
                         <p class="inf-text-title inf-text-infor">ngày 14/7/2022 vừa qua, nhằm mục đích san sẻ những khó khăn và động tiên tinh thần các em, rất hân hoan khi đồng
                             hành cùng hội kiến trúc sư SUPER STONE về các vùng miền quê hẻo lánh...
                         </p>
-                        <button type="button" class="inf-text-btn">Xem chi tiết...<i class="fa fa-angle-double-right"></i></button>
+                        <a href="#">Xem chi tiết...<i class="fa fa-angle-double-right"></i></a> 
                     </div>
                 </div>
 
@@ -333,7 +366,7 @@
                         <p class="inf-text-title inf-text-infor">vietceramics ra mắt showrom trực tuyến 3D superstone tô hiến thành, quận 10, TP.HCM, trưng bày
                             nhiều mãu mã gạch ốp lát từ các thương hiệu nổi tiếng trong và ngoài nước...
                         </p>
-                        <button type="button" class="inf-text-btn">Xem chi tiết...<i class="fa fa-angle-double-right"></i></button>
+                        <a href="#">Xem chi tiết...<i class="fa fa-angle-double-right"></i></a> 
                     </div>
                 </div>
 
@@ -344,7 +377,7 @@
 <br><br>
     <div class="icon-end">
         <div class="icon-end-div2">
-            <div>
+            <div class="icon-material-icons">
                 <i class="material-icons">security</i>
             </div>
             <div class="icon-end-text">
@@ -353,7 +386,7 @@
         </div>
 
         <div class="icon-end-div2">
-            <div>
+            <div class="icon-material-icons">
                 <i class="material-icons">add_alert</i>
             </div>
             <div class="icon-end-text">
@@ -362,7 +395,7 @@
         </div>
 
         <div class="icon-end-div2">
-            <div>
+            <div class="icon-material-icons">
                 <i class="material-icons">burst_mode</i>
             </div>
             <div class="icon-end-text">
@@ -371,7 +404,7 @@
         </div>
 
         <div class="icon-end-div2">
-            <div>
+            <div class="icon-material-icons">
                 <i class="material-icons">airport_shuttle</i>
             </div>
             <div class="icon-end-text">
@@ -387,7 +420,7 @@
 
     <div class="contactus-box-sizing">
         <div class="contactus">
-            <div class="superstone">
+            <div class="colum-row superstone">
                 <ul class="superstone-us"> 
                     <p class="contactus-text">gạch superstone</p>
                     <li><a href="#">bộ sưu tập gạch</a></li>
@@ -395,7 +428,7 @@
                     <li><a href="#">khu vực ngoài trời</a></li>
                 </ul>
             </div>
-            <div class="infor-us">
+            <div class="colum-row infor-us">
                 <ul class="infor-us-content">
                     <p class="contactus-text">giới thiệu</p>
                     <li><a href="#">về chúng tôi</a></li>
@@ -403,8 +436,8 @@
                 </ul>
             </div>
 
-            <div class="customer-service">
-                <ul class="customer-end">
+            <div class="colum-row customer-service">
+                <ul class=" customer-end">
                     <p class="contactus-text">dịch vụ khách hàng</p>
                     <li><a href="#">(HCM) 028 73003396</a></li>
                     <li><a href="#">(Đà Nẵng) 023 63600900</a></li>
@@ -414,7 +447,7 @@
                 </ul>
             </div>
 
-            <div class="link-company">
+            <div class="colum-row link-company">
                 <p class="contactus-text">bạn có phải là đại lý kinh doanh VLXD chuyên nghiệp ?</p>
                 <p>Các nhà thương mại VLXD dược mời tham gia chương trình khuyến mãi của chúng tôi. Thành viên đủ
                     tiêu chuẩn sẽ được hưởng giá cả và dịch vụ thương mại độc quyền tại showroom và trực tuyến của chúng tôi.
@@ -423,27 +456,32 @@
                     <button type="button">Đăng ký trở thành đại lý SuperStone</button>
                 </div>
             </div>
-            <div class="elctr-news">
+
+            <div class="colum-row elctr-news">
                 <p class="contactus-text">bản tin điện tử</p>
                 <p>Đăng ký để cập nhật thông tin mới nhất để khuyến mãi, sản phẩm và sự kiện</p>
                 <div class="elctr-news-search">
-                    <form action="">
-                        <input type="text" placeholder="Email Address..." name="Email">
-                        <button type="submit"><i class="material-icons">arrow_forward</i></button>
+                    <form action="" class="elctr-action">
+                        <input class="elctr-input" type="text" placeholder="Email Address..." name="Email">
+                        <button class="elctr-button" type="submit"><i class="material-icons">arrow_forward</i></button>
                     </form>
                 </div>
-                
             </div>
+            
         </div>
 
         <div class="end-footer">
-            <div class="icon-footer">
-                <div class="i"><i class="fa fa-facebook-f"></i></div>
-                <div class="i"><i class="fa fa-youtube-play"></i></div>
-                <div class="i"><i class="fa fa-twitter"></i></div>
+            <div class="icon-end-footer">
+                <span id="icon-button" class="ic-end-footer"><i class="fa fa-facebook-f"></i></span>
+                <span id="icon-button" class="ic-end-footer"><i class="fa fa-youtube-play"></i></span>
+                <span id="icon-button" class="ic-end-footer"><i class="fa fa-twitter"></i></span>
             </div>
             <div class="text-end">
-
+                <p class="text-end-footer"><a href="#">@2020 SUPERSTONE</a>.Công ty cổ phần quốc tế gốm sứ việt. GPĐKKD: 0311028311 do sở KH & ĐT TP.HCM cấp ngày 30/7/2011. <br>
+                            đăng ký thay đổi lần thứ 13 do Sở Kế Hoạch và Đầu tư Tp.Hồ Chí Minh ngày 27/02/2020 <br>
+                            Trụ Sở Chính: 778k/2 Nguyễn Kiệm, Phường 4, Quận Phú Nhuận, TP.HCM. Hotline: <br>
+                            079 700 0599 Emal: superstone@vietceramics.com.vn <br>
+                            Bản QUyền được Bảo Hộ. Điều Khoản & Chích Sách.</p>
             </div>
         </div>
     </div>
