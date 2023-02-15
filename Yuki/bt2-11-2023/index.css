@@ -175,32 +175,46 @@ header.affix .logo-2 {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-/* page section */
+/*  section */
 .page-section{
     position: relative;
     padding-top:20px;
     min-width: 100%;
+    height: 72vh;
     object-fit: cover;
-    
+ 
+}
+.wrap-page-section{
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
     
 }
 .page-section-container{
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: auto;
-    padding-right: auto;
-    
-
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 40px 20px 40px 20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
 .col{
     zoom: 1;
     position: relative;
-    max-width: 100%;
+    min-width: 100%;
     min-height:70vh ;
-    justify-content: center;
     display:flex;
+    justify-content: center;
+    align-items:center;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 .row1{
     max-width: 29%;
@@ -217,10 +231,6 @@ header.affix .logo-2 {
     background-position: center;
     position: relative;
 }
-.text-tab1{
-    position: absolute;
-    text-align: center;
-}
 .row2{
     width: 68%;
     max-height: 72vh;
@@ -236,25 +246,6 @@ header.affix .logo-2 {
     flex-wrap: wrap;
 
 }
-.tab1 h4{
-    overflow: hidden;
-    font-size: 20px;
-    font-weight: 600;
-}
-.tab2 h4{
-    overflow: hidden;
-    font-size: 20px;
-    font-weight: 600;
-}
-.tab3 h4{
-    overflow: hidden;
-    font-size: 20px;
-    font-weight: 600;
-}
-.text-tab1 a{
-    text-decoration: none;
-    color: white;
-}
 .tab1 img{
     width: 100%;   
     min-height:70vh;
@@ -262,16 +253,15 @@ header.affix .logo-2 {
   
 }
 .tab2{
-    float: left;
     padding:0px 10px 5px 5px;
     position: relative;
     max-width: 100%;
     display: flex;
     margin-left: -5px;
     margin-right: -5px;
+    object-fit: cover;
 }
 .tab3{
-    float: left;
     padding:5px 10px 0px 5px;
     position: relative;
     max-width: 100%;
