@@ -228,7 +228,7 @@ div.body2 {
 .container-block-over {
     display: flex;
     width: 100%;
-    background-color: #ddd;
+    background-color: #f3eeee;
     justify-content: center;
     align-items: flex-end;
     gap: 20px;
@@ -304,7 +304,8 @@ div.body2 {
   display: flex;  
 }
 .container-line {
-    border: 0.1px outset rgb(151, 149, 149)
+    border: 0.1px outset rgb(213, 213, 213);
+    height: 20px;
 }
 .container-silde-item p {
     font-size: 13px;
@@ -318,15 +319,7 @@ div.body2 {
     text-align: center;
     font-size: 28px;
     font-weight: bold;
-}
-.information h6::after {
-    
-    width: 100px;
-    height: 2px;
-    background-color: gray;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    text-decoration-line: underline;
 }
 .infor-container {
     display: flex;
@@ -378,7 +371,7 @@ div.body2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10em;
+    gap: 5em;
 }
 .icon-end i {
     font-size: 100px;
@@ -397,36 +390,37 @@ div.body2 {
     box-sizing:border-box;
     width: 100%;
     height: auto;
+    background-color: #f3f3f3;
 }
 .contactus {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    background-color: #e5dcdcd1;
     padding-bottom: 50px;
-    text-align: justify;
-    gap: 30px;
+    gap: 15px;
+    margin-left: 70px;
 }
 .contactus .colum-row {
     content: "";
-    width: 25%; 
-    gap: 1px
-    ;
+    width: 25%;
 }
+
 .contactus .contactus-text {
     text-transform: capitalize;
-    font-size:large;
+    font-size:  16px;;
     font-weight:bold;
+    padding: 10px 0;
 }
 .contactus ul {
     list-style: none;
     text-decoration: none;
+    margin-left: 10px;
     
 }
 .contactus li a {
     text-transform: capitalize;
     text-decoration: none;
-    font-size: small;
+    font-size: 13px;
     float: left;
 }
 .contactus .superstone-us {
