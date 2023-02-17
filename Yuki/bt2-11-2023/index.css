@@ -11,6 +11,9 @@ body{
     padding: 0;
     
 }
+a{
+    cursor: pointer;
+}
 div{
     display: block;
 }
@@ -19,7 +22,7 @@ div{
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
-    color: rgb(126, 128, 130);
+    color: rgb(0, 0, 0);
     min-width: 100%;
 
 }
@@ -114,13 +117,14 @@ header.affix .logo-2 {
     object-fit: cover;
     min-width: 100%;
     line-height: 15px;
+    padding-bottom:30px;
 }
 
 .wrap-section-banner-full{
     position: relative;  
 }
 .wrap-section-banner-container{
-    min-height: 100vh;
+    min-height: 110vh;
     width: auto;
     
 }
@@ -150,7 +154,7 @@ header.affix .logo-2 {
     color:  rgb(255, 255, 255);
 }
 .banner-img p{
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: 600;
 }
 .button-text{
@@ -164,8 +168,8 @@ header.affix .logo-2 {
 }
 .button-text p{
     width: auto;
-    font-size:20px;
-    font-weight: 200;
+    font-size:1.5vw;
+    font-weight: 500;
     border-style: ridge;
     border-radius: 5px;
     padding: 5px 45px 5px 45px;
@@ -178,11 +182,10 @@ header.affix .logo-2 {
 /*  section */
 .page-section{
     position: relative;
-    padding-top:20px;
     min-width: 100%;
-    height: 72vh;
+    min-height: 75vh;
     object-fit: cover;
- 
+    padding: auto;
 }
 .wrap-page-section{
     margin-right: auto;
@@ -191,13 +194,11 @@ header.affix .logo-2 {
     overflow: hidden;
     width: 100%;
     height: 100%;
-    
 }
 .page-section-container{
     position: relative;
     width: 100%;
     height: 100%;
-    padding: 40px 20px 40px 20px;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -206,7 +207,7 @@ header.affix .logo-2 {
     zoom: 1;
     position: relative;
     min-width: 100%;
-    min-height:70vh ;
+    min-height:75vh ;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -214,15 +215,23 @@ header.affix .logo-2 {
     margin-left: auto;
     padding-left: 20px;
     padding-right: 20px;
+    padding:20px 0px 20px 0px;
     
 }
 .row1{
     max-width: 29%;
     background-size: cover;
     float: left;
-    max-height: 72vh;
-    padding:0px 5px 0px 5px;
+    min-height: 75vh;
     position: relative;
+    padding:0px 5px 0px 5px;
+}
+.row1-wrap{
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100%; 
 
 }
 .tab1 , .tab2-row-top , .tab2-row-bottom , .tab3-row-top , .tab3-row-bottom{
@@ -233,14 +242,15 @@ header.affix .logo-2 {
 }
 .row2{
     width: 68%;
-    max-height: 72vh;
+    min-height: 75vh;
     float: left;
     position: relative;
 }
 .tab1{
     display: flex;
-    max-height: 100%;
+    min-height: 75vh;
     width: 100%;
+    position: relative;
 }
 .tab2 .tab3 {
     flex-wrap: wrap;
@@ -248,14 +258,14 @@ header.affix .logo-2 {
 }
 .tab1 img{
     width: 100%;   
-    min-height:70vh;
-    object-fit: cover;   
-  
+    min-height:75vh;
+    object-fit: cover;
 }
 .tab2{
     padding:0px 10px 5px 5px;
     position: relative;
     max-width: 100%;
+    min-height: 37.5vh;
     display: flex;
     margin-left: -5px;
     margin-right: -5px;
@@ -265,9 +275,11 @@ header.affix .logo-2 {
     padding:5px 10px 0px 5px;
     position: relative;
     max-width: 100%;
+    min-height: 37.5vh;
     display: flex;
     margin-left: -5px;
     margin-right: -5px;
+    max-height: 37.5%;
 }
 .tab2-row-top , .tab2-row-bottom ,.tab3-row-top , .tab3-row-bottom{
     display: flex;
@@ -285,21 +297,331 @@ header.affix .logo-2 {
 }
 .tab2-row-top img{
     width: 100%;   
-    height:35vh;
-    object-fit: cover;     
+    min-height:34.5vh;
+    object-fit: cover;
+
 }
 .tab2-row-bottom img{
     width: 100%;   
-    height:35vh;
-    object-fit: cover;   
+    min-height:34.5vh;
+    object-fit: cover; 
+ 
 }
 .tab3-row-top img{
     width: 100%;   
-    height:35vh;
-    object-fit: cover;    
+    min-height:34.5vh;
+    object-fit: cover;   
+
 }
 .tab3-row-bottom img{
     width: 100%;   
-    height:35vh;
-    object-fit: cover;  
+    min-height:34.5vh;
+    object-fit: cover; 
+
+}
+/*---- blog-content----- */
+.blog-section{
+    position: relative;
+    padding-top:50px;
+    min-width: 100%;
+    min-height: 50vw;
+    object-fit: cover;
+}
+.wrap-blog-section{
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.wrap-blog-section-content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(233, 231, 231);
+    overflow: hidden;
+}
+.blog-section-left{
+    width: 49%;
+    min-height: 100%;
+    float: left;
+    position: relative;
+}
+.blog-section-right{
+    width: 49%;
+    min-height: 100%;
+    float: left;
+    position: relative;
+}
+.blog-section-center{
+    width: 2%;
+    min-height: 50vw;
+    float: left;
+}
+.wrap-blog-section-left{
+    width: 100%;
+    height:10vw;
+    position:relative;  
+}
+.wrap-blog-section-left-container{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-section-left-text{
+    font-size: 2vw;
+    font-weight: 600;
+    text-align: center;
+}
+.blog-section-left-text p{
+    margin-bottom: 1vw;
+    width: fit-content;
+    
+}
+.blog-section-left-text span{
+    flex-wrap: wrap;
+    display: flex;
+    height: 0.1vw;
+    border-bottom:0.3vw solid rgb(0, 0, 0);
+    width: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-section-left-img-container{
+    
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    width: 100%;
+    height:40vw;
+    display: flex;
+    margin:0;
+    padding:0;
+}
+.blog-section-left-img{
+    background:url(../bt2-11-2023/img/FNx0VFTXsAEy6lK.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display:flex ;
+    width: 100%;
+    max-height:100%;
+    position: relative;
+}
+.wrap-blog-section-right{
+    width: 100%;
+    height:10vw;
+    position:relative;
+    line-height: 2vw;  
+}
+.wrap-blog-section-right-container{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+}
+.blog-section-right-img-container{
+    
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    width: 100%;
+    height:40vw;
+    display: flex;
+    
+}
+.blog-section-right-img{
+    background:url(../bt2-11-2023/img/FOlUVyOXwAgLjXd.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    width: 100%;
+    max-height:100%;
+    position: relative;
+}
+
+
+.blog-section-right-text{
+    font-size: 1vw;
+    width: 100%;
+    height: 10vw;
+    font-weight: 300;
+    text-align: center;
+    text-align: left;
+}
+.blog-section-right-text a{
+    text-decoration: none;
+    color: rgb(156, 6, 6);
+}
+.blog-section-right-text a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+/* ------suggestion list ------- */
+.suggestion-list{
+    position: relative;
+    min-width: 100%;
+    opacity: 1;
+    display: flex;
+    float: left;
+    min-height: 35vw;
+    object-fit: cover;
+}
+.wrap-suggestion-list{
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.wrap-suggestion-list-title{
+    width: 100%;
+    height:5vw;
+    position:relative;
+}
+.wrap-suggestion-list-title-container{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 600;
+    text-align: center;
+}
+.wrap-suggestion-list-title-container p{
+    margin-bottom: 1vw;
+    width: fit-content;
+}
+.wrap-suggestion-list-title-container span{
+    flex-wrap: wrap;
+    display: flex;
+    height: 0.1vw;
+    border-bottom:0.3vw solid rgb(0, 0, 0);
+    width: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.suggestion-list-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-list{
+    float: none;
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+.slick-list a{
+    text-decoration: none;
+}
+.slick-list li{
+    max-width: 20%;
+    position: relative;
+}
+.slick-list-block{
+    display: inline-block;
+    width: 19vw;
+    max-height: 35vw;
+    position: relative;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.block-wrapper{
+    position: relative;
+    background: no-repeat;
+    color: rgb(0, 0, 0);
+    height: auto;
+    display: block;
+}
+.suggestion-list ul{
+    list-style-type:none;
+    display: block;
+}
+.suggestion-list li{
+    float:left;
+    cursor: pointer;
+}
+.suggestion-list ul li{
+    display: inline-block;
+    list-style-type: none;
+    max-width: 19.5%;
+    max-height: 35vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+.block-wrapper-img-container{
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    width: 20vw;
+    height:20vw;
+    display: flex;
+}
+.block-wrapper-img{
+    background:url(../bt2-11-2023/img/FUDgcXsXEAAhgpl.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    width: 100%;
+    max-height:100%;
+    position: relative;
+}
+.ribbon{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background: rgb(156, 6, 6);
+    font-size: 1vw;
+    font-weight: bold;
+    float: left;
+    clear: both;
+    padding: 0.5vw 0.5vw;
+    left: 0.3vw;
+    top: 0.3vw;
+    white-space: nowrap;
+    display: flex;
+    border-radius: 0.5vw;
+    z-index: 1;
+}
+.block-wrapper-title{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.block-wrapper-nature{
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-wrapper-nature P{
+    float: left;
+    font-size: 1vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+.block-wrapper-nature span{
+    border-left: 0.2vw solid rgb(202, 201, 201);
+    /* padding-left: 0.5vw;
+    padding-right: 0.5vw; */
+    float: left;
+    height: 2vw;
 }
