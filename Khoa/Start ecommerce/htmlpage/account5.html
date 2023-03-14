@@ -13,11 +13,13 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-4 col-md-4">
+                <div class="myaccounttitle">
+                    <a>My account</a>
+                </div>
                 <div class="listleft">
                     <ul class="list-group">
-                        <li class="list-group-item"><a href="#" class="mycaccounttitle"> My account</a></li>
-                        <li class="list-group-item active" aria-current="true"><a href="account5.html" class="linksbackground">Profile</a></li>
+                        <li class="list-group-item active bg-light border" aria-current="true"><a href="account5.html" class="activebutton">Profile</a></li>
                         <li class="list-group-item"><a href="account5.html" class="linksbackground"> Cart</a></li>
                         <li class="list-group-item"><a href="ChangePassword6.html" class="linksbackground">Change your Password</a></li>
                         <li class="list-group-item"><a href="addressbook11.html" class="linksbackground">Address book</a></li>
@@ -30,13 +32,11 @@
                 </div>
             </div>
             
-            <div class="col-sm-8 ">
+            <div class="col-sm-8 col-md-8">
                 <div class="col-sm-12">
                     <div class="row">
                         <div class="wrap-gotocart">
-                            <h6>
-                                <a href="#" class="gotocart"> Go To Cart</a>
-                            </h6>
+                            <a href="#" class="gotocart"> Go To Cart</a>
                         </div>
                     </div>  
                 </div>
@@ -44,41 +44,40 @@
                         <div class="col-sm-2">
                             <div class="row">
                                 <div class="wrap-account5 ">
-                                    <h6>Account name</h6>
+                                    <h6>Account Name</h6>
                                 </div>
                             </div>
                         </div>    
                         <div class="wrap-account1">
                             <div class="col-sm-12">
                                 <div class="row">
-                                    <div class="col-sm-2 ">
+                                    <div class="col-sm-2 col-4">
                                         <h6>
                                             Your Email:
                                         </h6>
                                     </div>
-                                    <div class="col-sm-7">
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tên tài Khoản của bạn là">
+                                    <div class="col-sm-8 col-8">
+                                        <input type="text" class="form-control " placeholder="Your Email" disabled>
                                     </div>
-                                    <div class="col-sm-3">
-                                        <a href="#">
+                                    <div class="col-sm-2">
+                                        <a href="ChangePassword6.html" class="changelink">
                                             Change:
                                         </a>
                                     </div>
                                 </div>
-                              
                             </div>
                             <div class="col-sm-12">
                                 <div class="row">
-                                    <div class="col-sm-2">
+                                    <div class="col-sm-2 col-4">
                                         <h6>
                                             Your Phone number:
                                         </h6>
                                     </div>
-                                    <div class="col-sm-7">
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tên tài Khoản của bạn là">
+                                    <div class="col-sm-8 col 8">
+                                        <input type="text" class="form-control mt-1" placeholder="Your Phone number" disabled>
                                     </div>
-                                    <div class="col-sm-3">
-                                        <a href="#">
+                                    <div class="col-sm-2">
+                                        <a href="ChangePassword6.html" class="changelink">
                                             Change:
                                         </a>
                                     </div>
@@ -87,79 +86,70 @@
                             </div>
                             <div class="col-sm-12">
                                 <div class="row">
-                                    <div class="col-sm-2">
+                                    <div class="col-sm-2 mt-3 col-4">
                                         <h6>
-                                            Your address::
+                                            Your address:
                                         </h6>
                                     </div>
-                                    <div class="col-sm-7">
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tên tài Khoản của bạn là">
+                                    <div class="col-sm-8 col 8">
+                                        <input type="text" class="form-control" placeholder="Your Address" disabled>
                                     </div>
-                                    <div class="col-sm-3">
-                                        <a href="#">
+                                    <div class="col-sm-2">
+                                        <a href="ChangePassword6.html" class="changelink">
                                             Change:
                                         </a>
                                     </div>
                                 </div>
-                              
                             </div>
                             <div class="col-sm-12">
                                 <div class="row">
-                                    <div class="col-sm-2">
+                                    <div class="col-sm-2 mt-3 col-4">
                                         <h6>
                                             Day of birth:
                                         </h6>
                                     </div>
-                                    <div class="col-sm-3">
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tên tài Khoản của bạn là">
+                                    <div class="col-sm-3 col-8">
+                                        <input type="text" class="form-control mt-1" placeholder="Day of birth" disabled>
                                     </div>
-                                    <div class="col-sm-1">
-                                        <a href="#">
+                                    <div class="col-sm-1 col 1">
+                                        <a href="#" class="changelink">
                                             Gender:
                                         </a>
                                     </div>
-                                    <div class="col-sm-2">
-                                        <a href="#">
-                                            Male 
-                                        </a>
-                                        <i class="fa fa-square-o"></i>    
+                                    <div class="col-sm-2 col 1">
+                                        <input type="checkbox" class="form-check-input" id="check1" name="Male" value="something" checked>
+                                        <label class="form-check-label" for="check1">Male</label> 
                                     </div>
-                                    <div class="col-sm-2">
-                                        <a href="#">
-                                            Female
-                                        </a>
-                                        <i class="fa fa-square-o"></i> 
+                                    <div class="col-sm-2 col 1">
+                                        <input type="checkbox" class="form-check-input" id="check1" name="Female" value="something" checked>
+                                        <label class="form-check-label" for="check1">Female</label>
                                     </div>
-                                    <div class="col-sm-2">
-                                        <a href="#">
-                                            Orther
-                                        </a>
-                                        <i class="fa fa-square-o"></i> 
+                                    <div class="col-sm-2 col 1">
+                                        <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+                                        <label class="form-check-label" for="check1">Orther</label>
                                     </div>
                                 </div> 
                             </div>
                          
                         </div>
                    </div>
-            </div>
-                <div class="col-sm-12">
+                   <div class="col-sm-12">
                     <div class="row">
-                        <div class="col-sm-5">
+                        <div class="col-sm-6 col-6 col-xxl-6">
                             <div class="wrap-buttonedit">
-                                <h6 class="buttonedit">
-                                   Edit Profile
-                                </h6>
+                                <button type="button" class="btn">Edit Profile</button>
                             </div>
+                           
                         </div>
-                        <div class="col-sm-5">
-                            <div class="wrap-buttonedit1 ">
-                                <h6 class="buttonsave">
-                                   Save Profile
-                                </h6>
+                        <div class="col-sm-6 col-6 col-xxl-6">
+                            <div class="wrap-buttonsave ">
+                                <button type="button" class="btn">Save Profile</button>
                             </div>
+                           
                         </div>
                     </div> 
                 </div>
+            </div>
         </div>
     </div>
 </body>

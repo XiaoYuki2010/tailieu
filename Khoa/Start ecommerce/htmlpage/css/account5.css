@@ -1,14 +1,28 @@
+.myaccounttitle {
+    background-color: #95BB3D ;
+    color: #EBEBEB;
+    text-align: center;
+    font-size: 2rem;
+}
 .linksbackground{
     text-decoration: none;
     color:#A47CB0;
 }
-.linksbackground a:hover{
-    color:#F36C27;
+
+div.listleft :hover{
+    color:#ffffff;
+    background-color: #F36C27;
 }
-.mycaccounttitle{
-    background-color: #95BB3D;
+.activebutton{
     text-decoration: none;
-    color: #EBEBEB;
+    color:#A47CB0;
+}
+li > .activebutton :hover{
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #F36C27 ;
+    z-index: 1000;
+
 }
 .wrap-account5{
     margin-left: 0;
@@ -24,38 +38,23 @@ div.container{
     padding-top: 20px;
     
 }
-div.col-sm-8{
+div.col-sm-8 {
     box-sizing: border-box;
     background-color: #EBEBEB;
     box-sizing: border-box;
-    border:1px solid #50333333;
-    
-}
-div.mb-3{
-    text-align: left;
-    box-sizing: border-box;
-    border:1px solid #50333333;
-    margin-left: 0;
-    margin-right: 0;
-
-}
-div.mb-2{
-    text-align: left;
-    box-sizing: border-box;
-    border:1px solid #50333333;
-    text-align: right;
-}
-.form-label1 .form-control1{
-    display: flex;
-    flex-direction: row;
+    border:1px solid #50333333;   
 }
 div.wrap-gotocart{
     text-align: right;
     box-sizing: border-box;
     border: 1px solid #c4b9b9;
     margin:0;
-    padding-left:0px;
-    padding-right: 0px;
+    font-size: 1vw;
+    font-weight: 600;
+}
+div.wrap-gotocart :hover{
+    color: #ffffff;
+    background-color: #F36C27;
 }
 .gotocart{
     text-decoration: none;
@@ -66,7 +65,7 @@ div.wrap-account5{
     box-sizing: border-box;
     border: 1px solid #c4b9b9;
     margin:0;
-    padding-left:0px;
+    padding-left:10px;
     padding-right: 0px;
     margin-bottom: 40px;
 }
@@ -74,20 +73,34 @@ div.yourmail{
     box-sizing: border-box;
     border: 1px solid #c4b9b9;
     width: 142px;
- 
 }
-div.wrap-buttonedit, div.wrap-buttonedit1{
-    color:#ffffff;
-    background-color: #EB5999;
-    width: 100px;
+.changelink{
+    color:#A47CB0;
+    font-size: 12px;
+   
+}
+.changelink a:hover{
+    color:#F36C27;
 }
 div.wrap-buttonedit{
-    margin-left: 12vw;
-    margin-top: 5rem;
+    text-align: right;
+    margin-top: 4rem;
 }
-div.wrap-buttonedit1{
-    margin-left: 5vw;
-    margin-top: 5rem;
+div.wrap-buttonsave{
+    text-align: left;
+    margin-top: 4rem;
+}
+.wrap-buttonedit :hover{
+    color:#ffffff;
+    background-color: #F36C27;
+}
+.wrap-buttonsave :hover{
+    color:#ffffff;
+    background-color: #F36C27;
+}
+.btn{
+    background-color:#EB5999;
+    color:#ffffff;
 }
 
 
