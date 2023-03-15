@@ -2,28 +2,10 @@ div.container{
     text-decoration: none;
     color: #95BB3D;
     padding-top: 20px;
-    
 }
 div.col-sm-12{
     box-sizing: border-box;
     background-color: #EBEBEB;
-    box-sizing: border-box;
-    
-    
-}
-div.mb-3{
-    text-align: left;
-    box-sizing: border-box;
-    border:1px solid #50333333;
-    margin-left: 0;
-    margin-right: 0;
-
-}
-div.mb-2{
-    text-align: left;
-    box-sizing: border-box;
-    border:1px solid #50333333;
-    text-align: right;
 }
 div.wrap-brandname{
     text-align: Center;
@@ -33,35 +15,46 @@ div.wrap-brandname{
     padding-top: 10px;
     font-size: 2rem;
 }
-div.wrap-account5{
+div.wrap-logintocontinues{
     text-align: center;
     margin-bottom: 40px;
-    
-}
-.wrap-account5{
     font-size: 2rem;
+}
+.emailtitle{
+    margin-left: 2rem;
+}
+.passwordtiltle{
+    margin-left: 2rem;
 }
 div.rememberme{
     text-align: right;
     color: #A47CB0;
 }
 div.forgot{
-    text-align: left;
     color: #A47CB0;
-    
 }
-.forgot{
+.forgot a{
     text-align: left;
+    font-size: 0.75rem;
     color: #A47CB0;
-    text-decoration: none;
 }
 div.wrap-buttonlogin{
-    width: 120px;
-    margin:auto;
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
-    color: #ffffff;
-    background-color: #EB5999;
 }
-
+.wrap-buttonlogin{
+    text-decoration: none;
+}
+div.wrap-buttonlogin :hover{
+    text-decoration: none;
+    background-color: #F36C27;
+}
+button.btn{
+    background-color: #EB5999;
+    text-decoration: none;
+}
+button.btn a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
