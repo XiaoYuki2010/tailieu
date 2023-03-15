@@ -1,0 +1,60 @@
+div.container{
+    text-decoration: none;
+    color: #95BB3D;
+    padding-top: 20px;
+}
+div.col-sm-12{
+    box-sizing: border-box;
+    background-color: #EBEBEB;
+}
+div.wrap-brandname{
+    text-align: Center;
+    box-sizing: border-box;
+    border: 1px solid #c4b9b9;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 2rem;
+}
+div.wrap-logintocontinues{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+.emailtitle{
+    margin-left: 2rem;
+}
+.passwordtiltle{
+    margin-left: 2rem;
+}
+div.rememberme{
+    text-align: right;
+    color: #A47CB0;
+}
+div.forgot{
+    color: #A47CB0;
+}
+.forgot a{
+    text-align: left;
+    font-size: 0.75rem;
+    color: #A47CB0;
+}
+div.wrap-buttonlogin{
+    margin-top: 30px;
+    text-align: center;
+}
+.wrap-buttonlogin{
+    text-decoration: none;
+}
+div.wrap-buttonlogin :hover{
+    text-decoration: none;
+    background-color: #F36C27;
+}
+button.btn{
+    background-color: #EB5999;
+    text-decoration: none;
+}
+button.btn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
