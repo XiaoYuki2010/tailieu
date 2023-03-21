@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgba(57, 60, 66, 0.952);
+    text-align: center;
+    text-shadow: 1px 0px 15px;
+}
+.backgroundtop{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: -3;
+}
+.logo{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    display:block;
+    position: absolute;
+    z-index: 2;
+}
+ul{
+    text-align: right;
+    padding-left: 1px;
+}
+ul.nav li{
+    list-style: none;
+    display:inline-block;
+    padding: 10px 10px;
+    position: relative;
+}
+div.primarymenu{
+    position: fixed;
+    width: 100%;
+    bottom: top ;
+    left:0px;
+    padding: right;
+    background-color:rgb(9, 209, 209);
+    z-index: 4;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    display: block;
+    font-size: 13px;
+    text-decoration: none;
+    color:white;
+}
+ul li > .submenu{
+    display: none;
+}
+ul li:hover .submenu{
+    display:block;
+    position: absolute;
+    text-align: left;
+    width: 200px;
+    text-decoration:none;
+    background-color: silver;
+}
+/**Sản Phẩm**/
+
+H3{
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 70px;
+    
+}
+h4{
+    text-align: center;
+    font-size: 15px;
+    color:whitesmoke;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 130px;
+    overflow: auto;
+    object-position:center
+}
+div.polis {
+    box-sizing: border-box;
+    margin: 10px 10px 10px 10px;
+    padding: 50px 50px 50px 50px ;
+}
+.piclist {
+    float: left;
+}
+.piclist .piclist2 {
+    position: absolute;
+    display: block;
+    object-fit: cover;
+}
+.primary img{
+    opacity: 0.6;
+    transition: all 0.8s;
+    border-radius: 5%;
+    display: flex;
+}
+.primary img:hover{
+    opacity: 1.0;
+    overflow: hidden;
+}
+.primary{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+.picproduct{
+    display: contents;
+    justify-content: center;
+    align-content: center;
+}
+.giaiphap img{
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 15px 15px 15px 15px;
+}
+div.piclist2{
+    display: flex;
+}
+div.picbottom {
+    float: right;
+    display: block;
+}
+.piclisttop img{
+    width: 330px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 15px 15px 15px 15px;
+}
+.piclistbottom img{
+    width: 330px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 15px 15px 15px 15px;
+}
+
+

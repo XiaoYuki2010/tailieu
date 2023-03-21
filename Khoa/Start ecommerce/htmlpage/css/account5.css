@@ -1,0 +1,106 @@
+.myaccounttitle {
+    background-color: #95BB3D ;
+    color: #EBEBEB;
+    text-align: center;
+    font-size: 2rem;
+}
+.linksbackground{
+    text-decoration: none;
+    color:#A47CB0;
+}
+
+div.listleft :hover{
+    color:#ffffff;
+    background-color: #F36C27;
+}
+.activebutton{
+    text-decoration: none;
+    color:#A47CB0;
+}
+li > .activebutton :hover{
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #F36C27 ;
+    z-index: 1000;
+
+}
+.wrap-account5{
+    margin-left: 0;
+    box-sizing: border-box;
+    border: 1px solid #c4b9b9;
+    text-align: center;
+    padding:0;
+    text-decoration: none;
+}
+div.container{
+    text-decoration: none;
+    color: #95BB3D;
+    padding-top: 20px;
+    
+}
+div.col-sm-8 {
+    box-sizing: border-box;
+    background-color: #EBEBEB;
+    box-sizing: border-box;
+    border:1px solid #50333333;   
+}
+div.wrap-gotocart{
+    text-align: right;
+    box-sizing: border-box;
+    border: 1px solid #c4b9b9;
+    margin:0;
+    font-size: 1vw;
+    font-weight: 600;
+}
+div.wrap-gotocart :hover{
+    color: #ffffff;
+    background-color: #F36C27;
+}
+.gotocart{
+    text-decoration: none;
+    color:#95BB3D;
+}
+div.wrap-account5{
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid #c4b9b9;
+    margin:0;
+    padding-left:10px;
+    padding-right: 0px;
+    margin-bottom: 40px;
+}
+div.yourmail{
+    box-sizing: border-box;
+    border: 1px solid #c4b9b9;
+    width: 142px;
+}
+.changelink{
+    color:#A47CB0;
+    font-size: 12px;
+   
+}
+.changelink a:hover{
+    color:#F36C27;
+}
+div.wrap-buttonedit{
+    text-align: right;
+    margin-top: 4rem;
+}
+div.wrap-buttonsave{
+    text-align: left;
+    margin-top: 4rem;
+}
+.wrap-buttonedit :hover{
+    color:#ffffff;
+    background-color: #F36C27;
+}
+.wrap-buttonsave :hover{
+    color:#ffffff;
+    background-color: #F36C27;
+}
+.btn{
+    background-color:#EB5999;
+    color:#ffffff;
+}
+
+
