@@ -1,0 +1,15 @@
+
+.container {
+    background-color: #574b4b;
+    font-size: 25px;
+    color: rgb(92, 92, 216);
+    border: 3px solid green;
+    
+}
+.row {
+    background-color: #e35a5a;
+    font-size: 25px;
+    color: blue;
+    border: 3px solid green;
+    
+}

@@ -1,4 +1,12 @@
-* {box-sizing:border-box}
+body{
+  top: 0;
+  margin: 0;
+}
+.wrap_slide_co {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
 /* thiết lập style cho slideshow container */
  .slideshow-container {
    max-width: 1000px;
