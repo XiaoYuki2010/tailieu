@@ -36,5 +36,14 @@
   "C_Cpp_Runner.useAddressSanitizer": false,
   "files.associations": {
     "stdio.h": "c"
-  }
+  },
+  "livePreview.defaultPreviewPath": "/Tripper/project/shop.html",
+  "html-to-css-autocompletion.autocompletionFilesScope": "linked-files",
+  "html-to-css-autocompletion.folderNamesToBeIncluded": [
+    ""
+  ],
+  "html-to-css-autocompletion.getSelectorsFromFileTypes": [
+    "html",
+    "php"
+  ]
 }

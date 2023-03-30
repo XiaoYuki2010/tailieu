@@ -1,45 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="divcard_items.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/divcard_items.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>index</title>
 </head>
+
 <body>
+    <div class="wrap-header">
+        <div class="header">
+            <div class="header-container">
+                <div class="header-top">
+                    <div class="header-top-left">
+                        <span><a href="#">Account</a></span>
+                        <span><a href="#">Track Order</a></span>
+                        <span><a href="#">Support</a></span>
+                    </div>
+                    <div class="header-top-right">
+                        <span><a>Lang</a></span>
+                    </div>
+                </div>
+                <div class="header-bot">
+                    <div class="header-bot-left">
+                        <div class="header-bot-logo-container">
+                            <div class="header-bot-logo">
+                                <img src="../2. Source/img/logoG75x75.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-bot-center">
+                        <div class="header-bot-center-search">
+                            <div class="header-bot-center-search-container">
+                                <input type="text" class="header-search" placeholder="Search GOAP">
+                                <button type="submit" class="searchButton">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-bot-right">
+                        <div class="header-bot-right-container">
+                            <button type="submit" class="headerbutton heartbutton">
+                                <i class="fa fa-heart"></i>
+                            </button>
+                            <div class="button-space"></div>
+                            <button type="submit" class="headerbutton bagbutton">
+                                <i class="fa fa-shopping-bag"></i>
+                            </button>
+                            <div class="button-space"></div>
+                            <button type="submit" class="headerbutton userbutton">
+                                <i class="fa fa-user"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu">
+                    <div class="menu-container">
+                        <ul class="menu-primary">
+                            <li class="menu-fix"><a href="#">Trang Chủ</a></li>
+                            <li class="menu-fix">
+                                <a href="#">Sản Phẩm</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">sản phẩm nhồi bông</a></li>
+                                    <li><a href="#">sản phẩm nhồi bông</a><i class="fa fa-angle-right"></i></li>
+                                    <li><a href="#">sản phẩm nhồi bông</a></li>
+                                    <li><a href="#">sản phẩm nhồi bông</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-fix"><a href="#">Tin Tức</a></li>
+                            <li class="menu-fix"><a href="#">Blog</a></li>
+                            <li class="menu-fix"><a href="#">Giải Trí</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-banner">
+        <div class="section-banner-wrap">
+            <div class="section-banner-container">
+                <div class="section-banner-img-container">
+                    <img src="../2. Source/img/Sea-of-Lightssquare.jpg" alt="">
+                </div>
+                <div class="section-banner-text">
+                    <span>
+                        <a href="#">index</a>
+                        <i class="fa fa-angle-right"></i>
+                        <a href="#">About Us</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container container_index_shop">
         <div class="wrap container_wrap">
             <div class="wrap_qc">
                 <div class="shop gird gird_qc">
-                    <div id="carouselExampleFade" class="slide_img carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div id="carouselExampleFade" class="slide_img carousel slide carousel-fade"
+                        data-bs-ride="carousel">
                         <div class="img_shop_flexbox carousel-inner">
                             <div class="shop_flexbox carousel-item active">
                                 <img src="../project/img/shirt/shirt1.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="shop_flexbox carousel-item">
-                                <img src="../project/img/shirt/shirt1.jpg" class="d-block w-100" alt="...">
+                                <img src="../project/img/shirt/shirt2.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="shop_flexbox carousel-item">
-                            <img src="../project/img/shirt/shirt1.jpg" class="d-block w-100" alt="...">
+                                <img src="../project/img/shirt/shirt3.jpg" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -55,9 +152,10 @@
                             </b>
                         </a>
                     </h3>
-                    <div class="menu_product">
+                    <div class="enu_product">
                         <div class="product_wrap">
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
@@ -67,7 +165,8 @@
                                         <span>
                                             <div class="img_product shirt">
                                                 <div class="items_flexbox">
-                                                    <img src="../project/img/shirt/shirt4.jpg" class="" alt="Sample image">
+                                                    <img src="../project/img/shirt/shirt4.jpg" class=""
+                                                        alt="Sample image">
                                                 </div>
                                                 <h5><b>ÁO</b></h5>
                                             </div>
@@ -79,7 +178,8 @@
                                         <span>
                                             <div class="img_product shirt">
                                                 <div class="items_flexbox">
-                                                    <img src="../project/img/shirt/shirt4.jpg" class="" alt="Sample image">
+                                                    <img src="../project/img/shirt/shirt4.jpg" class=""
+                                                        alt="Sample image">
                                                 </div>
                                                 <h5><b>VÁY</b></h5>
                                             </div>
@@ -91,7 +191,8 @@
                                         <span>
                                             <div class="img_product shirt">
                                                 <div class="items_flexbox">
-                                                    <img src="../project/img/shirt/shirt4.jpg" class="" alt="Sample image">
+                                                    <img src="../project/img/shirt/shirt4.jpg" class=""
+                                                        alt="Sample image">
                                                 </div>
                                                 <h5><b>QUẦN</b></h5>
                                             </div>
@@ -103,7 +204,8 @@
                                         <span>
                                             <div class="img_product shirt">
                                                 <div class="items_flexbox">
-                                                    <img src="../project/img/shirt/shirt4.jpg" class="" alt="Sample image">
+                                                    <img src="../project/img/shirt/shirt4.jpg" class=""
+                                                        alt="Sample image">
                                                 </div>
                                                 <h5><b>ĐẦM</b></h5>
                                             </div>
@@ -115,7 +217,8 @@
                                         <span>
                                             <div class="img_product shirt">
                                                 <div class="items_flexbox">
-                                                    <img src="../project/img/shirt/shirt4.jpg" class="" alt="Sample image">
+                                                    <img src="../project/img/shirt/shirt4.jpg" class=""
+                                                        alt="Sample image">
                                                 </div>
                                                 <h5><b>PHỤ KIỆN</b></h5>
                                             </div>
@@ -127,7 +230,8 @@
                                         <span>
                                             <div class="img_product shirt">
                                                 <div class="items_flexbox">
-                                                    <img src="../project/img/shirt/shirt4.jpg" class="" alt="Sample image">
+                                                    <img src="../project/img/shirt/shirt4.jpg" class=""
+                                                        alt="Sample image">
                                                 </div>
                                                 <h5><b>NHÃN HIỆU</b></h5>
                                             </div>
@@ -135,7 +239,8 @@
                                     </a>
                                 </div>
                             </div>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -143,19 +248,20 @@
                     </div>
                 </div>
             </div>
+            <br>
             <div class="shop gird gird_flash">
                 <div class="container product-text">
                     <div class="row product-row row-cols-3">
                         <div class="col-6">
-                            <h3 class="text">
-                                <a href="" class="btn">
-                                        <span class="product-flash-sale">
-                                            <b>
-                                                FLASH SALE
-                                            </b>
-                                        </span>
+                            <span class="product-flash-sale">
+                                <h3>
+                                    <a href="#">
+                                        <b>
+                                            FLASH SALE
+                                        </b>
                                     </a>
                                 </h3>
+                            </span>
                         </div>
                         <div class="col">
                             <div class="btn-see-more">
@@ -185,12 +291,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -201,7 +309,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -211,7 +319,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -230,12 +340,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -246,7 +358,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -256,7 +368,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -275,12 +389,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -291,7 +407,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -301,7 +417,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -320,12 +438,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -336,7 +456,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -346,7 +466,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -365,12 +487,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -381,7 +505,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -391,7 +515,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -410,12 +536,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -426,7 +554,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -436,7 +564,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -455,12 +585,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -471,7 +603,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -481,7 +613,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -495,7 +629,7 @@
                         </div>
                         <button class="btn btn-action">
                             <span class="silde-wrap-icon">
-                                <a href="#" class="next round">&#8250;</a>                   
+                                <a href="#" class="next round">&#8250;</a>
                             </span>
                         </button>
                     </div>
@@ -511,15 +645,15 @@
                 <div class="container product-text">
                     <div class="row product-row row-cols-3">
                         <div class="col-6">
-                            <h3 class="text">
-                                <a href="" class="btn">
-                                        <span class="product-flash-sale">
-                                            <b>
-                                                FLASH SALE
-                                            </b>
-                                        </span>
+                            <span class="product-flash-sale">
+                                <h3 class="text">
+                                    <a href="" class="btn">
+                                        <b>
+                                            FLASH SALE
+                                        </b>
                                     </a>
                                 </h3>
+                            </span>
                         </div>
                         <div class="col">
                             <div class="btn-see-more">
@@ -549,12 +683,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -565,7 +701,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -575,7 +711,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -594,12 +732,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -610,7 +750,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -620,7 +760,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -639,12 +781,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -655,7 +799,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -665,7 +809,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -684,12 +830,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -700,7 +848,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -710,7 +858,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -729,12 +879,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -745,7 +897,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -755,7 +907,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -774,12 +928,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -790,7 +946,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -800,7 +956,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -819,12 +977,14 @@
                                         <a href="#" class="product photo product-item-photo">
                                             <span class="product-item-container">
                                                 <span class="product-image-wrap">
-                                                    <img src="../project/img/shirt/shirt1.jpg" class="product-item-photo" alt="" class="image-items-list">
+                                                    <img src="../project/img/shirt/shirt1.jpg"
+                                                        class="product-item-photo" alt="" class="image-items-list">
                                                     <div class="icon_bag product_into_right">
                                                         <span class="label_images">
                                                             <span class="product-into-bag">
-                                                                <button class="bag bag-product-infor"><i class="bi bi-bag"></i></button>
-                                                            </span>                                 
+                                                                <button class="bag bag-product-infor"><i
+                                                                        class="bi bi-bag"></i></button>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </span>
@@ -835,7 +995,7 @@
                                                 <strong class="product name product-item-name">
                                                     <a href="#" class="product-item-link">
                                                         Áo thun nữ
-                                                    </a>            
+                                                    </a>
                                                 </strong>
                                                 <div class="product-item-price-box">
                                                     <div class="price-box price-final_price">
@@ -845,7 +1005,9 @@
                                                             </span>
                                                         </span>
                                                     </div>
-                                                    <a href="#" class="action towishlist action-open-login" title="thêm vào danh sách yêu thích" aria-label="thêm vào danh sách yêu thích">
+                                                    <a href="#" class="action towishlist action-open-login"
+                                                        title="thêm vào danh sách yêu thích"
+                                                        aria-label="thêm vào danh sách yêu thích">
                                                         <span>
                                                             <i class="fa fa-heart"></i>
                                                         </span>
@@ -859,16 +1021,133 @@
                         </div>
                         <button class="btn btn-action">
                             <span class="silde-wrap-icon">
-                                <a href="#" class="next round">&#8250;</a>                   
+                                <a href="#" class="next round">&#8250;</a>
                             </span>
                         </button>
                     </div>
                 </div>
             </div>
             <div class="shop gird">
-                
+
             </div>
         </div>
     </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="footer-column-wrap">
+                    <div class="footer-logo-wrap">
+                        <div class="footer-logo">
+                            <div class="footer-logo-container">
+                                <ul>
+                                    <li><img src="../2. Source/img/logoG75x75.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-list">
+                        <div class="footer-list-container">
+                            <ul>
+                                <h4>About Us</h4>
+                                <li><a href="#"><span>Company Infomation</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-list-container">
+                            <ul>
+                                <h4>Famous brand</h4>
+                                <li><a href="#"><span>Louis Vuitton ,Hermes,
+                                            Prada,Chanel,Gucci,
+                                            Versance,Christian Dior,
+                                            Burberry.........</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-column-wrap">
+                    <div class="footer-list">
+                        <div class="footer-list-container">
+                            <ul>
+                                <h4>women's fashion
+                                    and accessories</h4>
+                                <li><a href="#"><span>Clothing</span></a></li>
+                                <li><a href="#"><span>Pajamas & Underwear</span></a></li>
+                                <li><a href="#"><span>Shoes</span></a></li>
+                                <li><a href="#"><span>Accessories</span></a></li>
+                                <li><a href="#"><span>handBags</span></a></li>
+                                <li><a href="#"><span>Jewelry</span></a></li>
+                                <li><a href="#"><span>Watches</span></a></li>
+                                <li><a href="#"><span>Glass</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-column-wrap">
+                    <div class="footer-list">
+                        <div class="footer-list-container">
+                            <ul>
+                                <h4>Account</h4>
+                                <li><a href="#"><span>Login</span></a></li>
+                                <li><a href="#"><span>Register</span></a></li>
+                                <li><a href="#"><span>Shoes</span></a></li>
+                                <li><a href="#"><span>Forgot Password</span></a></li>
+                                <li><a href="#"><span>WishList</span></a></li>
+                                <li><a href="#"><span>Tracking order</span></a></li>
+                                <li><a href="#"><span>Profile Update</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-column">
+                <div class="footer-column-wrap">
+                    <div class="footer-list">
+                        <div class="footer-list-container">
+                            <ul>
+                                <h4>Support</h4>
+                                <li><a href="#"><span>FAQ's</span></a></li>
+                                <li><a href="#"><span>Return Policy</span></a></li>
+                                <li><a href="#"><span>Shipping Policy</span></a></li>
+                            </ul>
+                            <ul>
+                                <h4>Payment Method</h4>
+                                <li><img src="../2. Source/img/payment-card-discover.png" alt="">
+                                    <img src="../2. Source/img/pay-visa.png" alt="">
+                                    <img src="../2. Source/img/payment-card-mastecard.png" alt="">
+                                    <img src="../2. Source/img/payment-napas.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub-footer">
+        <div class="sub-footer-container">
+            <div class="sub-footer-left">
+                <ul>
+                    <div class="sub-footer-left-container">
+                        <h4>Connect With Us</h4>
+                        <li><img src="../2. Source/img/payment-card-discover.png" alt="">
+                            <img src="../2. Source/img/pay-visa.png" alt="">
+                            <img src="../2. Source/img/payment-card-mastecard.png" alt="">
+                            <img src="../2. Source/img/payment-napas.png" alt="">
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="sub-footer-right">
+                <div class="copy-right-text">
+                    <span>© Developed by 2023 <a>Team Classroom-GSS0123</a>All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
+
 </html>
