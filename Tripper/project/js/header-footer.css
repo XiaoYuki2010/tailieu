@@ -12,7 +12,7 @@ body{
     margin: 0;
     padding:0;
 }
-h4, h3{
+h4{
     color: #95BB3D;
 }
 a{
@@ -29,22 +29,13 @@ a:hover{
     font-size: 20px;
     font-weight: 500;
     line-height: 25px;
-    margin: auto;
-    width: 1024px;
-}
-button {
-    background-color: #EB5999;
-    cursor: pointer;
-    color: #fff;
-}
-button:hover {
-    background-color: #F36C27;
 }
 
 /*/................ I.header............ */
 
 .wrap-header{
     position: fixed;
+    width: 100%;
     z-index: 1;
 }
 .header{
@@ -333,33 +324,6 @@ button:hover {
 .section-banner-text a{
     color: #fff;
 }
-
-/* .][[].------main body container wrapper all ------ */
-.main-body.container-wrapper-all {
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
-.main-body.container-wrapper-all .change-address-employ {
-    display: flex;
-    width: 100%;
-    height: fit-content;
-    background-color: #EBEBEB;
-    position: relative;
-    box-shadow: 0 2px 4px 1px rgb(0 0 0 / 25%);
-    border-radius: 3px;
-    padding: 5px;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-/* =-=-=-= =-=--=-row information-invoice list-items =-=-= =-=-=- =-= */
-.row.information-invoice {
-
-}
-
 
 /* ----footer----- */
 .footer{

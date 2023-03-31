@@ -1094,6 +1094,7 @@ a:hover{
 }
 #infor-item.product-details .col.slideshow-gallery img {
   vertical-align: middle;
+  width: 100% !important;
 }
 
 .container.container-wrap-gallery {
