@@ -1,0 +1,68 @@
+:root{
+    --heading-font: "Quicksand", sans-serif;
+    --body-font: "Roboto", sans-serif;
+    --white: 0 0% 100%;
+    --text:#A47CB0 ;
+    
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+h4, h3 {
+    font-weight: bold;;
+    color: #95BB3D;
+}
+a{
+    text-decoration: none;
+    color: #A47CB0;
+}
+.money:hover, td:hover,
+label:hover, a:hover{
+    color:#F36C27;
+    cursor: pointer;
+}
+.wrap{
+    display: block;
+    color: #A47CB0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: auto;
+    width: 1024px;
+}
+button {
+    background-color: #EB5999;
+    cursor: pointer;
+    color: #fff;
+}
+.money {font-weight: bold;
+    color: red;
+}
+button:hover {
+    background-color: #F36C27;
+}
+/* ----------- wrap circle name product .............. */
+.name.container.product-circle .col-3.name-product-circle {
+    display: block;
+    position: relative;
+    background-color: #bebebe;
+    border-radius: 30%;
+    text-align: center;
+}
+.name.container.product-circle .col-3.name-product-circle .product-circle {
+    padding: 5px;
+}
+.name.container.product-circle .product-circle .img-name-product {
+    width:  220px;
+    height: 220px;
+    object-fit: contain;
+    isolation: isolate;
+    border-radius: 50%;
+}
+.name.container.product-circle .col-3.name-product-circle h3.name-product b {
+    background-color: #fff;
+}
