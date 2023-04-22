@@ -1,0 +1,152 @@
+
+:root {
+    --heading-font: "Quicksand", sans-serif;
+    --body-font: "Roboto", sans-serif;
+    --white: 0 0% 100%;
+    --text: #A47CB0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #c2bfbf;
+}
+h4 {
+    color: #95BB3D;
+}
+
+a {
+    text-decoration: none;
+    color: #A47CB0;
+}
+
+a:hover {
+    color: #F36C27;
+    cursor: pointer;
+}
+
+
+.item-card {
+    display: block;
+    position: relative;
+    background-color: white;
+    width: 15vw;
+    border: 0.5px solid black;
+    transition: 0.5s ease-out;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    list-style: none;
+    overflow: hidden;
+    border-radius: 10%;
+    font-size: 1.2em;
+}
+
+.item-card a {
+    text-decoration: none;
+}
+
+.container-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    transition: 0.3s ease-out;
+    border-radius: 20%;
+}
+
+.card-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 20%;
+}
+.btn-buy-cart-producto {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 0.7em;
+    z-index: 1;
+}
+.btn-buy-cart-producto .btn-cart {
+    color: red;
+}
+.btn-buy-cart-producto .btn-buy {
+    color: blue;
+}
+.btn-buy-cart-producto button {
+    cursor: pointer !important;
+    background-color: transparent;
+        border-style: none;
+        text-transform: none;
+}
+.btn-buy-cart-producto button:hover {
+    text-shadow: -5px 4px 15px #e1e2ed;
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+}
+.btn-buy-cart-producto button:active {
+    position: relative;
+        top: 1px;
+}
+.card-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    display: block;
+}
+
+.fr-icon {
+    overflow: visible;
+    position: relative;
+}
+
+.fr-implicit {
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.info-producto {
+    position: absolute;
+    box-sizing: border-box;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    overflow: hidden;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+}
+.info-producto {
+display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.name-product h3 {
+    font-size: 1.2em;
+    color: #95BB3D !important;
+}
+.container-card:hover .info-producto {
+    width: 100%;
+    height: 36%;
+    left: 0;
+    bottom: 0;
+}
+.size-producto span  {
+    padding-right: 0.4em;
+    font-weight: 500;
+}
+.checked {
+    color: yellow;
+}
